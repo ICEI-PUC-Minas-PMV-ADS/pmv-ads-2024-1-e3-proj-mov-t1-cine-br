@@ -86,6 +86,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
 |RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-003| Notificação de filmes em cartaz (pop-ups) | MÉDIA |
+|RF-004| permitir que o usuário faça um cadastro com login e senha | ALTA |
+|RF-005| o usuário especifique em seu cadastro qual o gênero de filme gosta | ALTA |
+|RF-006| permitir que o usuário opte pelo “DarkMode” | MÉDIA |
+|RF-007| página de escolha de filmes seja customizável conforme as necessidades do usuário | BAIXA |
+|RF-008| Histórico de reservas | MÉDIA |
+|RF-009| Gerenciar o perfil como permitir que os usuários alterem suas informações de perfil, endereço, número de telefone e foto | MÉDIA |
+|RF-010| Orçamentos assim comparando preços de cinemas diferentes | BAIXA |
 
 ### Requisitos não Funcionais
 
@@ -93,6 +101,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
 |RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-003| Deve conseguir ter acesso a localização | BAIXA |
+|RNF-004| Reconhecer preferencia de filmes para recomendação | BAIXA |
+|RNF-005| O sistema deve ser acessível e de fácil usabilidade pelo usuário | ALTA |
+|RNF-006| A aplicação deve ser responsiva e adequada a qualquer sistema de acesso (Desktop, Smartphone ou Tablet). | MÉDIA | 
+|RNF-007| O sistema deve permitir fácil manutenibilidade | ALTA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -117,6 +130,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
+|03| Alguns membros da equipe podem ser mais ativos e engajados do que outros, levando a desequilíbrios na carga de trabalho e na contribuição geral. Então todos devem ter o mínimo de participação e disposição de tempo.|
+|04| A equipe não pode contratar nem delegar funções à terceiros|
+|05| Acesso limitado a ferramentas ou tecnologias e falta de suporte podem dificultar a realização das tarefas de maneira eficaz.|
+|06| A diferença de fusos horários e a dispersão geográfica podem dificultar a comunicação em tempo real e a coordenação eficaz, mantenha-se informado horários e paciente com os colaboradores da equipe.|
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
 
