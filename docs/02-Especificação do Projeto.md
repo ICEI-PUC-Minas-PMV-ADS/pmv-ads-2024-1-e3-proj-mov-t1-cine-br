@@ -25,14 +25,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 | **Idade**              | 21 anos                    |
 |------------------------|----------------------------|
-| **Principais aplicativos** | Banking; Streaming; Whatsapp; Instagram; TikTok; YouTube; Twitter |
-| **Ocupação**           | Estudante de engenharia civil      |
-| **Motivações**         | * Encontrar uma forma rápida e eficiente de escolher um filme em cartaz para aproveitar o pouco tempo livre que tem nos fins de semana. 
-* Quer facilidade de uso e recomendações ágeis para tomar decisões rápidas e se divertir com os amigos.|
+| **Principais aplicativos** | Banking; Streaming; Whatsapp; Instagram; TikTok; YouTube; Twitter|
+| **Ocupação**           | Estudante de engenharia civil|
+| **Motivações**         | * Encontrar uma forma rápida e eficiente de escolher um filme em cartaz para aproveitar o pouco tempo livre que tem nos fins de semana. * Quer facilidade de uso e recomendações ágeis para tomar decisões rápidas e se divertir com os amigos.|
 | **Objetivos**          | Seguir evoluindo profissionalmente |
 | **Hobbies**            | Leitura; Filmes e Séries; Língua Estrangeira; Viagens |
-|**Frustrações**         |Perder tempo em aplicativos complicados ou que não oferecem uma seleção clara de filmes em cartaz.
-Não conseguir decidir rapidamente e acabar perdendo a oportunidade de assistir a um filme por falta de organização na escolha.|
+|**Frustrações**         |*Perder tempo em aplicativos complicados ou que não oferecem uma seleção clara de filmes em cartaz.*Não conseguir decidir rapidamente e acabar perdendo a oportunidade de assistir a um filme por falta de organização na escolha.|
 
 
 ### Ana Machado 
