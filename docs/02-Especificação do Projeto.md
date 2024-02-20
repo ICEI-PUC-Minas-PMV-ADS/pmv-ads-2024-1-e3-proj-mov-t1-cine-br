@@ -42,8 +42,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | **Motivações**         | * Encontrar uma solução que se adapte à sua agenda agitada e facilite a programação de um momento de lazer no fim de semana. *Quer um aplicativo que forneça informações precisas sobre horários de exibição e disponibilidade de ingressos para que possa planejar com antecedência.|
 | **Objetivos**          | Seguir evoluindo profissionalmente |
 | **Hobbies**            | Leitura; Filmes e Séries; Revistas cientificas; Viagens |
-|**Frustrações**         |Não ter tempo para buscar informações sobre os filmes em cartaz e acabar perdendo oportunidades de lazer.
-Encontrar aplicativos confusos ou com pouca atualização sobre os horários de exibição, dificultando a escolha e a compra de ingressos.|
+|**Frustrações**         |* Não ter tempo para buscar informações sobre os filmes em cartaz e acabar perdendo oportunidades de lazer.* Encontrar aplicativos confusos ou com pouca atualização sobre os horários de exibição, dificultando a escolha e a compra de ingressos.|
 
 ### Pedro Braga
 
@@ -51,12 +50,10 @@ Encontrar aplicativos confusos ou com pouca atualização sobre os horários de 
 |------------------------|----------------------------|
 | **Principais aplicativos** | Banking; Whatsapp; Facebook; YouTube; Twitter; Streaming; |
 | **Ocupação**           | Aposentado |
-| **Motivações**         | *Desfrutar de sua aposentadoria explorando diferentes atividades culturais, como ir ao cinema frequentemente.
-*Valoriza um aplicativo intuitivo que ofereça uma variedade de opções de filmes em cartaz, permitindo-lhe escolher com facilidade.|
+| **Motivações**         | *Desfrutar de sua aposentadoria explorando diferentes atividades culturais, como ir ao cinema frequentemente. *Valoriza um aplicativo intuitivo que ofereça uma variedade de opções de filmes em cartaz, permitindo-lhe escolher com facilidade.|
 | **Objetivos**          | Viajar o mundo, e se divertir |
 | **Hobbies**            | Leitura; Filmes e Séries; Viagens |
-|**Frustrações**         |Encontrar aplicativos complicados de usar ou que não atendam às suas preferências de filmes.
-Não conseguir informações claras sobre os filmes em cartaz, como trailers e sinopses, dificultando a tomada de decisão.|
+|**Frustrações**         |* Encontrar aplicativos complicados de usar ou que não atendam às suas preferências de filmes.* Não conseguir informações claras sobre os filmes em cartaz, como trailers e sinopses, dificultando a tomada de decisão.|
 
 ### Carolina Melo
 
@@ -64,8 +61,7 @@ Não conseguir informações claras sobre os filmes em cartaz, como trailers e s
 |------------------------|----------------------------|
 | **Principais aplicativos**  | Banking; Streaming; Whatsapp; Instagram; TikTok; YouTube; Twitter |
 | **Ocupação**           | Estudante  |
-| **Motivações**         | * Compartilhar suas experiências cinematográficas com amigos nas redes sociais e ficar por dentro das últimas tendências.
-* Quer um aplicativo que ofereça recomendações personalizadas com base em seus gostos e integre recursos sociais para compartilhamento fácil.
+| **Motivações**         | * Compartilhar suas experiências cinematográficas com amigos nas redes sociais e ficar por dentro das últimas tendências.* Quer um aplicativo que ofereça recomendações personalizadas com base em seus gostos e integre recursos sociais para compartilhamento fácil.
 |
 | **Objetivos**          | Viajar o mundo, e ser fazer teatro |
 | **Hobbies**            | Leitura; Filmes e Séries; Teatro |
