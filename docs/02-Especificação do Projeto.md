@@ -61,11 +61,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |------------------------|----------------------------|
 | **Principais aplicativos**  | Banking; Streaming; Whatsapp; Instagram; TikTok; YouTube; Twitter |
 | **Ocupação**           | Estudante  |
-| **Motivações**         | * Compartilhar suas experiências cinematográficas com amigos nas redes sociais e ficar por dentro das últimas tendências.* Quer um aplicativo que ofereça recomendações personalizadas com base em seus gostos e integre recursos sociais para compartilhamento fácil.
-|
+| **Motivações**         | * Compartilhar suas experiências cinematográficas com amigos nas redes sociais e ficar por dentro das últimas tendências.* Quer um aplicativo que ofereça recomendações personalizadas com base em seus gostos e integre recursos sociais para compartilhamento fácil.|
 | **Objetivos**          | Viajar o mundo, e ser fazer teatro |
 | **Hobbies**            | Leitura; Filmes e Séries; Teatro |
-|**Frustrações**         |*Não encontrar um aplicativo que acompanhe suas preferências e interesses cinematográficos, tornando difícil a escolha de um filme para assistir com os amigos.*Não poder compartilhar suas experiências e opiniões sobre os filmes facilmente nas redes sociais devido à falta de integração com aplicativos de mídia social.|
+|**Frustrações**         |*Não encontrar um aplicativo que acompanhe suas preferências e interesses cinematográficos, tornando difícil a escolha de um filme para assistir com os amigos.*Não poder compartilhar suas experiências e opiniões sobre os filmes facilmente nas redes sociais devido à falta de integração com aplicativos de mídia social|
 
 
 > **Links Úteis**:
