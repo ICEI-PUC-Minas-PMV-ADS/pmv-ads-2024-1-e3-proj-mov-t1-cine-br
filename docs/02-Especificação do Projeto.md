@@ -2,41 +2,76 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+A definição precisa do problema e os principais aspectos a serem abordados neste projeto foram estabelecidos através da colaboração dos usuários durante uma imersão conduzida pela equipe. Isso envolveu observar os usuários em seus ambientes naturais e realizar entrevistas. As informações obtidas foram organizadas em personas e histórias de usuários.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Lucas Oliveira é um estudante universitário que vive uma vida movimentada entre aulas, estágio e atividades extracurriculares. Ele adora sair com os amigos nos fins de semana para relaxar e se divertir. Como ele tem pouco tempo livre, prefere aplicativos que sejam fáceis de usar e ofereçam recomendações rápidas de filmes em cartaz para que ele possa decidir rapidamente.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Ana  Machado é uma profissional que trabalha em tempo integral em uma empresa de tecnologia. Ela é uma entusiasta do cinema e gosta de ir ao cinema com seu parceiro nos finais de semana para relaxar. No entanto, sua agenda lotada torna difícil acompanhar os filmes em cartaz. Ela está procurando um aplicativo que possa fornecer informações claras sobre os horários dos filmes e a disponibilidade de ingressos, facilitando sua escolha e compra rápida.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Pedro Braga é um aposentado que adora explorar atividades culturais e de lazer. Ele é apaixonado por cinema e costuma ir ao cinema algumas vezes por semana. Como ele tem mais tempo livre agora, ele gosta de experimentar diferentes gêneros de filmes e frequentemente vai ao cinema sozinho ou com amigos da mesma faixa etária. Pedro valoriza um aplicativo intuitivo que ofereça uma ampla seleção de filmes em cartaz e permita que ele veja trailers e leia sinopses antes de tomar uma decisão.
+
+Carolina Melo é uma adolescente aficionada por tecnologia e mídia social. Ela adora ir ao cinema com seus amigos para assistir aos últimos lançamentos e compartilhar suas experiências nas redes sociais. Carolina está sempre em busca das últimas tendências e novidades, por isso valoriza um aplicativo que ofereça recomendações personalizadas com base em suas preferências e que também integre recursos sociais para que ela possa compartilhar sua paixão pelo cinema com seus seguidores.
+
+
 
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-### LUCAS ANDRADE -->> (OBS - TROCAR OS DADOS)
+### Lucas Oliveira 
 
 | **Idade**              | 21 anos                    |
 |------------------------|----------------------------|
 | **Principais aplicativos** | Banking; Streaming; Whatsapp; Instagram; TikTok; YouTube; Twitter |
-| **Ocupação**           | Analista Financeiro        |
-| **Motivações**         | Família; Busca por conhecimento |
+| **Ocupação**           | Estudante de engenharia civil      |
+| **Motivações**         | * Encontrar uma forma rápida e eficiente de escolher um filme em cartaz para aproveitar o pouco tempo livre que tem nos fins de semana. * Quer facilidade de uso e recomendações ágeis para tomar decisões rápidas e se divertir com os amigos.|
 | **Objetivos**          | Seguir evoluindo profissionalmente |
 | **Hobbies**            | Leitura; Filmes e Séries; Língua Estrangeira; Viagens |
+|**Frustrações**         |Perder tempo em aplicativos complicados ou que não oferecem uma seleção clara de filmes em cartaz.
+Não conseguir decidir rapidamente e acabar perdendo a oportunidade de assistir a um filme por falta de organização na escolha.|
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+
+### Ana Machado 
+
+| **Idade**              | 32 anos                    |
+|------------------------|----------------------------|
+| **Principais aplicativos** | Banking; Whatsapp; Instagram; TikTok; YouTube; Twitter Streaming;|
+| **Ocupação**           | Profissional de TI  |
+| **Motivações**         | * Encontrar uma solução que se adapte à sua agenda agitada e facilite a programação de um momento de lazer no fim de semana. *Quer um aplicativo que forneça informações precisas sobre horários de exibição e disponibilidade de ingressos para que possa planejar com antecedência.|
+| **Objetivos**          | Seguir evoluindo profissionalmente |
+| **Hobbies**            | Leitura; Filmes e Séries; Revistas cientificas; Viagens |
+|**Frustrações**         |Não ter tempo para buscar informações sobre os filmes em cartaz e acabar perdendo oportunidades de lazer.
+Encontrar aplicativos confusos ou com pouca atualização sobre os horários de exibição, dificultando a escolha e a compra de ingressos.|
+
+### Pedro Braga
+
+| **Idade**              | 65 anos                    |
+|------------------------|----------------------------|
+| **Principais aplicativos** | Banking; Whatsapp; Facebook; YouTube; Twitter; Streaming; |
+| **Ocupação**           | Aposentado |
+| **Motivações**         | *Desfrutar de sua aposentadoria explorando diferentes atividades culturais, como ir ao cinema frequentemente.
+*Valoriza um aplicativo intuitivo que ofereça uma variedade de opções de filmes em cartaz, permitindo-lhe escolher com facilidade.|
+| **Objetivos**          | Viajar o mundo, e se divertir |
+| **Hobbies**            | Leitura; Filmes e Séries; Viagens |
+|**Frustrações**         |Encontrar aplicativos complicados de usar ou que não atendam às suas preferências de filmes.
+Não conseguir informações claras sobre os filmes em cartaz, como trailers e sinopses, dificultando a tomada de decisão.|
+
+### Carolina Melo
+
+| **Idade**              | 65 anos                    |
+|------------------------|----------------------------|
+| **Principais aplicativos**  | Banking; Streaming; Whatsapp; Instagram; TikTok; YouTube; Twitter |
+| **Ocupação**           | Estudante  |
+| **Motivações**         | * Compartilhar suas experiências cinematográficas com amigos nas redes sociais e ficar por dentro das últimas tendências.
+* Quer um aplicativo que ofereça recomendações personalizadas com base em seus gostos e integre recursos sociais para compartilhamento fácil.
+|
+| **Objetivos**          | Viajar o mundo, e ser fazer teatro |
+| **Hobbies**            | Leitura; Filmes e Séries; Teatro |
+|**Frustrações**         |*Não encontrar um aplicativo que acompanhe suas preferências e interesses cinematográficos, tornando difícil a escolha de um filme para assistir com os amigos.*Não poder compartilhar suas experiências e opiniões sobre os filmes facilmente nas redes sociais devido à falta de integração com aplicativos de mídia social.|
+
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
