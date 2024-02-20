@@ -27,7 +27,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |------------------------|----------------------------|
 | **Principais aplicativos** | Banking; Streaming; Whatsapp; Instagram; TikTok; YouTube; Twitter |
 | **Ocupação**           | Estudante de engenharia civil      |
-| **Motivações**         | * Encontrar uma forma rápida e eficiente de escolher um filme em cartaz para aproveitar o pouco tempo livre que tem nos fins de semana. * Quer facilidade de uso e recomendações ágeis para tomar decisões rápidas e se divertir com os amigos.|
+| **Motivações**         | * Encontrar uma forma rápida e eficiente de escolher um filme em cartaz para aproveitar o pouco tempo livre que tem nos fins de semana. 
+* Quer facilidade de uso e recomendações ágeis para tomar decisões rápidas e se divertir com os amigos.|
 | **Objetivos**          | Seguir evoluindo profissionalmente |
 | **Hobbies**            | Leitura; Filmes e Séries; Língua Estrangeira; Viagens |
 |**Frustrações**         |Perder tempo em aplicativos complicados ou que não oferecem uma seleção clara de filmes em cartaz.
