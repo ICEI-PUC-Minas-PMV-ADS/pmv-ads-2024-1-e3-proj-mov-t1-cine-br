@@ -23,6 +23,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Lucas Oliveira 
 
+(img/lucas.jpg)
+
 | **Idade**              | 21 anos                    |
 |------------------------|----------------------------|
 | **Principais aplicativos** | Banking; Streaming; Whatsapp; Instagram; TikTok; YouTube; Twitter|
@@ -35,6 +37,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Ana Machado 
 
+(img/ana.jpg)
+
 | **Idade**              | 32 anos                    |
 |------------------------|----------------------------|
 | **Principais aplicativos** | Banking; Whatsapp; Instagram; TikTok; YouTube; Twitter Streaming;|
@@ -46,6 +50,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Pedro Braga
 
+(img/pedro.jpg)
+
 | **Idade**              | 65 anos                    |
 |------------------------|----------------------------|
 | **Principais aplicativos** | Banking; Whatsapp; Facebook; YouTube; Twitter; Streaming; |
@@ -56,6 +62,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |**Frustrações**         |* Encontrar aplicativos complicados de usar ou que não atendam às suas preferências de filmes.* Não conseguir informações claras sobre os filmes em cartaz, como trailers e sinopses, dificultando a tomada de decisão.|
 
 ### Carolina Melo
+
+(img/carolina.jpg)
 
 | **Idade**              | 65 anos                    |
 |------------------------|----------------------------|
