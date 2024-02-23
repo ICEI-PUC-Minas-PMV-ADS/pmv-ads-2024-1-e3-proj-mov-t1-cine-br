@@ -23,7 +23,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Lucas Oliveira 
 
-(img/lucas.jpg)
+![](img/lucas.png)
 
 | **Idade**              | 21 anos                    |
 |------------------------|----------------------------|
@@ -37,7 +37,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Ana Machado 
 
-(img/ana.jpg)
+![](img/ana.png)
 
 | **Idade**              | 32 anos                    |
 |------------------------|----------------------------|
@@ -50,7 +50,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Pedro Braga
 
-(img/pedro.jpg)
+![](img/pedro.png)
 
 | **Idade**              | 65 anos                    |
 |------------------------|----------------------------|
@@ -63,7 +63,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Carolina Melo
 
-(img/carolina.jpg)
+![](img/carolina.png)
 
 | **Idade**              | 65 anos                    |
 |------------------------|----------------------------|
