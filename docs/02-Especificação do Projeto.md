@@ -120,31 +120,33 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|------|-------------------------|----|
+|RF-001| Cadastro de Usuário | ALTA | 
+|RF-002| Pesquisa de Cinemas por cidade | ALTA |
+|RF-003| Visualização de Informações do Cinema | ALTA |
+|RF-004| Filtragem de Cinemas | MÉDIA |
+|RF-005| Compra de Ingressos | ALTA |
+|RF-006| Reserva de Assentos (se disponível) | MÉDIA |
+|RF-007| Notificações aos Usuários | MÉDIA |
+|RF-008| Histórico de Compras | BAIXA |
+|RF-009| Avaliação do filme | MÉDIA |
+|RF-010| Integração de Mapas para direções(!) | BAIXA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| Usabilidade Intuitiva | ALTA | 
+|RNF-002| Desempenho com tempos de carregamento rápidos | ALTA | 
+|RNF-003| Segurança dos dados do usuário | ALTA |
+|RNF-004| Disponibilidade 24/7(!) | MÉDIA |
+|RNF-005| Compatibilidade com múltiplos dispositivos e sistemas | ALTA |
+|RNF-006| Escalabilidade para lidar com grande número de usuários(!) | MÉDIA |
+|RNF-007| Manutenibilidade do código | BAIXA |
+|RNF-008| Integração com sistemas de terceiros(!) | MÉDIA |
+|RNF-009| Localização precisa e relevância de resultados | MÉDIA |
+|RNF-010| Acessibilidade para diferentes necessidades | ALTA |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
