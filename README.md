@@ -8,7 +8,7 @@
 ## Integrantes
 
 * Arthur Oliveira
-* * Bianca Cristina Sousa Santana
+* Bianca Cristina Sousa Santana
 * Geovanne do Monte Ribeiro
 * Lucas Emanuel Pereira Rodrigues
 * Mayra Gabriella vitoriana machado Rodriguez
