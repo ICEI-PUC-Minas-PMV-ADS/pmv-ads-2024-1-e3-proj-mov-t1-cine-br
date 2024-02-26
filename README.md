@@ -13,7 +13,7 @@
 * Lucas Emanuel Pereira Rodrigues
 * Mayra Gabriella vitoriana machado Rodriguez
 * Otávio Cavallieri Silva
-* Perterson
+* Peterson Alves Gervazio 
 
 ## Orientador
 
