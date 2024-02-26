@@ -7,12 +7,13 @@
 
 ## Integrantes
 
-Arthur Oliveira
-Mayra Gabriella vitoriana machado Rodriguez
-Geovanne do Monte Ribeiro
-Bianca Cristina Sousa Santana
-Lucas Emanuel Pereira Rodrigues
-Otávio Cavallieri Silva
+* Arthur Oliveira
+* * Bianca Cristina Sousa Santana
+* Geovanne do Monte Ribeiro
+* Lucas Emanuel Pereira Rodrigues
+* Mayra Gabriella vitoriana machado Rodriguez
+* Otávio Cavallieri Silva
+* Perterson
 
 ## Orientador
 
