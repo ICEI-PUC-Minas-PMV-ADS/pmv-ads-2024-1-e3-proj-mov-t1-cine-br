@@ -130,7 +130,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-007| Notificações aos Usuários | MÉDIA |
 |RF-008| Histórico de Compras | BAIXA |
 |RF-009| Avaliação do filme | MÉDIA |
-|RF-010| Integração de Mapas para direções(!) | BAIXA |
 
 ### Requisitos não Funcionais
 
@@ -139,11 +138,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RNF-001| Usabilidade Intuitiva | ALTA | 
 |RNF-002| Desempenho com tempos de carregamento rápidos | ALTA | 
 |RNF-003| Segurança dos dados do usuário | ALTA |
-|RNF-004| Disponibilidade 24/7(!) | MÉDIA |
 |RNF-005| Compatibilidade com múltiplos dispositivos e sistemas | ALTA |
-|RNF-006| Escalabilidade para lidar com grande número de usuários(!) | MÉDIA |
 |RNF-007| Manutenibilidade do código | BAIXA |
-|RNF-008| Integração com sistemas de terceiros(!) | MÉDIA |
 |RNF-009| Localização precisa e relevância de resultados | MÉDIA |
 |RNF-010| Acessibilidade para diferentes necessidades | ALTA |
 
