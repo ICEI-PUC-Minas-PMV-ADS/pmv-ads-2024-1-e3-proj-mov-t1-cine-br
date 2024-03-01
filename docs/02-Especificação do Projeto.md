@@ -2,7 +2,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-A definição precisa do problema e os principais aspectos a serem abordados neste projeto foram estabelecidos através da colaboração dos usuários durante uma imersão conduzida pela equipe. Isso envolveu observar os usuários em seus ambientes naturais e realizar entrevistas. As informações obtidas foram organizadas em personas e histórias de usuários,
+A definição precisa do problema e os principais aspectos a serem abordados neste projeto foram estabelecidos através da colaboração dos usuários durante uma imersão conduzida pela equipe. Isso envolveu observar os usuários em seus ambientes naturais e realizar entrevistas. As informações obtidas foram organizadas em personas e histórias de usuários.
 
 
 ## Personas
