@@ -27,16 +27,17 @@ A ferramenta de controle de versão selecionada para o projeto foi o Git, enquan
 
 O projeto segue uma convenção específica para nomear os branches:
 
-main: refere-se à versão estável e testada do software.
-unstable: indica uma versão do software que foi testada, mas ainda é instável.
-testing: representa a versão em fase de testes do software.
-dev: corresponde à versão de desenvolvimento em andamento do software.
+- main: refere-se à versão estável e testada do software.
+- unstable: indica uma versão do software que foi testada, mas ainda é instável.
+- testing: representa a versão em fase de testes do software.
+- dev: corresponde à versão de desenvolvimento em andamento do software.
+
 Em relação à gestão de problemas (issues), o projeto adota a seguinte convenção para etiquetas:
 
-documentation: para melhorias ou adições à documentação.
-bug: para identificar funcionalidades com problemas.
-enhancement: para indicar melhorias necessárias em funcionalidades existentes.
-feature: para sugerir a introdução de novas funcionalidades.
+- documentation: para melhorias ou adições à documentação.
+- bug: para identificar funcionalidades com problemas.
+- enhancement: para indicar melhorias necessárias em funcionalidades existentes.
+- feature: para sugerir a introdução de novas funcionalidades.
 
 
 
@@ -48,36 +49,36 @@ Com o objetivo de maximizar a eficiência na realização das tarefas em um praz
 
 Além do Scrum, o projeto também incorpora princípios do Microsoft Solutions Framework (MSF), um framework flexível projetado para orientar projetos de desenvolvimento de software. Combinando os princípios do Scrum com os mindsets do MSF, a equipe adota os seguintes conceitos:
 
-Qualidade definida pelo cliente: Os usuários fornecem feedback contínuo para garantir que o site atenda às suas necessidades, especialmente considerando que se baseia nas avaliações dos usuários.
+- Qualidade definida pelo cliente: Os usuários fornecem feedback contínuo para garantir que o site atenda às suas necessidades, especialmente considerando que se baseia nas avaliações dos usuários.
 
-Trabalho em pares: Dada a complexidade do projeto, muitas tarefas serão realizadas em colaboração, o que acelera o desenvolvimento e melhora a qualidade geral.
+- Trabalho em pares: Dada a complexidade do projeto, muitas tarefas serão realizadas em colaboração, o que acelera o desenvolvimento e melhora a qualidade geral.-
 
-Entrega frequente de versões: O desenvolvimento ágil permite que partes do site sejam implementadas rapidamente, testadas, revisadas e potencialmente melhoradas em um ciclo contínuo.
+- Entrega frequente de versões: O desenvolvimento ágil permite que partes do site sejam implementadas rapidamente, testadas, revisadas e potencialmente melhoradas em um ciclo contínuo.
 
-Desejo de aprender: Reconhecendo a natureza desafiadora do desenvolvimento do site, cada membro da equipe se compromete a aprender continuamente novas habilidades para melhorar suas contribuições.
+- Desejo de aprender: Reconhecendo a natureza desafiadora do desenvolvimento do site, cada membro da equipe se compromete a aprender continuamente novas habilidades para melhorar suas contribuições.
 
-Orgulho no trabalho individual: À medida que os membros da equipe adquirem novas habilidades e superam desafios, eles se sentem realizados e motivados a continuar contribuindo de maneira significativa para o projeto.
+- Orgulho no trabalho individual: À medida que os membros da equipe adquirem novas habilidades e superam desafios, eles se sentem realizados e motivados a continuar contribuindo de maneira significativa para o projeto.
 
 A equipe está organizada da seguinte forma: [descreva a organização da equipe, se necessário, com detalhes sobre funções e responsabilidades:
 
-**Scrum Master: 
+### Scrum Master: 
 
-*Geovanne do Monte Ribeiro
+- Geovanne do Monte Ribeiro
 
-**Product Owner: 
+- Product Owner: 
 
-*Mayra Gabriella Vitoriana Machado Rodriguez
+-Mayra Gabriella Vitoriana Machado Rodriguez
 
-** Equipe de Desenvolvimento:
+###  Equipe de Desenvolvimento:
 
-*Arthur Oliveira
-*Bianca Cristina Sousa Santana
-*Otávio Cavallieri Silva
+- Arthur Oliveira
+- Bianca Cristina Sousa Santana
+- Otávio Cavallieri Silva
 
-Equipe de Design:
+###  Equipe de Design:
 
-*Lucas Emanuel Pereira Rodrigues
-*Peterson Alves Gervazio
+- Lucas Emanuel Pereira Rodrigues
+- Peterson Alves Gervazio
 
 ### Processo
 
@@ -103,11 +104,11 @@ IMAGEM
 
 As ferramentas empregadas no projeto são:
 
-*Canva.
-*Figma.
-*GitHub.
-*Git.
-*Microsoft Teams.
+- Canva.
+- Figma.
+- GitHub.
+- Git.
+- Microsoft Teams.
 *Visual Studio Code.
 *Expo
 
