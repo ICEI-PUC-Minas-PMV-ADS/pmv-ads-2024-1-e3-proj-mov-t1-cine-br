@@ -109,7 +109,7 @@ As ferramentas empregadas no projeto são:
 - GitHub.
 - Git.
 - Microsoft Teams.
-*Visual Studio Code.
-*Expo
+- Visual Studio Code.
+- Expo
 
 O Expo foi escolhido porque ele possui uma integração com o GitHub muito fácil de se utilizar. 
