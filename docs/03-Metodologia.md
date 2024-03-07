@@ -79,9 +79,8 @@ Peterson Alves Gervazio
 
 Para organizar e distribuir as tarefas do projeto, a equipe utiliza a plataforma GitHub, que oferece diversas funcionalidades para aumentar a eficiência do grupo, como a criação de listas, cartões, etiquetas e botões personalizados com ações automáticas.
 
-O ambiente de trabalho no Trello está estruturado da seguinte maneira:
+O ambiente de trabalho no Github Planejamento está estruturado da seguinte maneira:
 
-Recursos para Projetos: Esta lista contém todas as informações relevantes do projeto, como links para o Google Drive, GitHub, MarvelApp, o próprio Trello, agendamento de reuniões semanais com a orientadora e avisos importantes.
 
 A fazer: Aqui são listadas todas as tarefas que precisam ser executadas na etapa atual do projeto. Cada tarefa possui uma descrição com dicas sobre como realizá-la, ideias para adicionar conteúdo, data limite e etiquetas indicando sua prioridade.
 
@@ -89,7 +88,7 @@ Em desenvolvimento: Nesta lista são exibidas as tarefas que estão atualmente e
 
 Concluído: Esta lista registra as tarefas que foram concluídas, servindo como um histórico do progresso do projeto. Cada tarefa concluída inclui a data de conclusão e quem a revisou.
 
-O ambiente de trabalho desenvolvido no Trello pode ser acessado através da [URL https://trello.com/b/TMofVulh](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/768/views/1) e está apresentado no estado atual na figura a seguir: [inserir a descrição ou imagem da figura a seguir:
+O ambiente de trabalho desenvolvido no Trello pode ser acessado através da [https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/768/views/1) e está apresentado no estado atual na figura a seguir: [inserir a descrição ou imagem da figura a seguir:
 
 
 
