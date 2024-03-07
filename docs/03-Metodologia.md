@@ -3,85 +3,110 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+
+A metodologia é uma etapa crucial no desenvolvimento do projeto, pois como disse Pitágoras, "com organização e tempo, acha-se o segredo de fazer tudo e bem feito". Levando isso em consideração, a equipe optou por utilizar uma variedade de ferramentas, abrangendo organização, agilidade, manutenção de código, comunicação e outras áreas relevantes, as quais serão mencionadas neste tópico.
 
 ## Relação de Ambientes de Trabalho
 
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito deverá ser apresentada em uma tabela que especifica que detalha Ambiente, Plataforma e Link de Acesso. 
-Nota: Vide documento modelo do estudo de caso "Portal de Notícias" e defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
+Toda ferramenta tem seu propósito; a tabela seguinte irá explicar em que ambiente, e para que, a equipe fez uso delas.
+
+|              Ambiente              |  Plataforma  |                                    Link de Acesso                                    |
+|:----------------------------------:|:------------:|:------------------------------------------------------------------------------------:|
+|     Repositório de código fonte    |    GitHub    | [https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t4-filmes  ](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-cine-br)|
+|        Documentos do projeto       | Teams | [https://drive.google.com/drive/folders/1POynLcQ6bOiBFRq-0w5JRyjmy7eRR508?usp=sharing](https://sgapucminasbr.sharepoint.com/:f:/s/team_sga_2418_2024_1_8512101-Time3-/EjX_trc0YHxOkz6cm5WIQ1wBE3HIE0uDxs2p96qWfP2vNQ?e=XKHpvD) |
+| Projeto de Interface e  Wireframes |   Figma  | FALTA LINK                               |
+|      Gerenciamento do Projeto      |    GitHub    | [https://trello.com/b/TMofVulh](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/768/views/1) |
+
+
 
 ## Controle de Versão
 
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
 
-O projeto segue a seguinte convenção para o nome de branches:
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+A ferramenta de controle de versão selecionada para o projeto foi o Git, enquanto o Github foi escolhido para hospedar o repositório.
 
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
+O projeto segue uma convenção específica para nomear os branches:
 
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
+main: refere-se à versão estável e testada do software.
+unstable: indica uma versão do software que foi testada, mas ainda é instável.
+testing: representa a versão em fase de testes do software.
+dev: corresponde à versão de desenvolvimento em andamento do software.
+Em relação à gestão de problemas (issues), o projeto adota a seguinte convenção para etiquetas:
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
+documentation: para melhorias ou adições à documentação.
+bug: para identificar funcionalidades com problemas.
+enhancement: para indicar melhorias necessárias em funcionalidades existentes.
+feature: para sugerir a introdução de novas funcionalidades.
 
-> **Links Úteis**:
-> - [Microfundamento: Gerência de Configuração](https://pucminas.instructure.com/courses/87878/)
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+
 
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
+Com o objetivo de maximizar a eficiência na realização das tarefas em um prazo reduzido, a equipe optou por adotar metodologias ágeis, especificamente o Scrum, para orientar o processo de desenvolvimento. Nessa abordagem, cada membro da equipe é responsável por assumir uma ou mais funções e responsabilidades claras em cada estágio do projeto, visando uma colaboração criativa e adaptável para alcançar o resultado final de maneira harmoniosa.
 
-Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-- Scrum Master: Felipe Domingos;
-- Product Owner: Rommel Carneiro;
-- Equipe de Desenvolvimento: Pedro Penna, Pedro Ivo, Rodrigo Richard;
-- Equipe de Design: Simone Nogueira.
+Além do Scrum, o projeto também incorpora princípios do Microsoft Solutions Framework (MSF), um framework flexível projetado para orientar projetos de desenvolvimento de software. Combinando os princípios do Scrum com os mindsets do MSF, a equipe adota os seguintes conceitos:
 
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-> - [Os papéis do Scrum e a verdade sobre cargos nessa técnica](https://www.atlassian.com/br/agile/scrum/roles)
+Qualidade definida pelo cliente: Os usuários fornecem feedback contínuo para garantir que o site atenda às suas necessidades, especialmente considerando que se baseia nas avaliações dos usuários.
+
+Trabalho em pares: Dada a complexidade do projeto, muitas tarefas serão realizadas em colaboração, o que acelera o desenvolvimento e melhora a qualidade geral.
+
+Entrega frequente de versões: O desenvolvimento ágil permite que partes do site sejam implementadas rapidamente, testadas, revisadas e potencialmente melhoradas em um ciclo contínuo.
+
+Desejo de aprender: Reconhecendo a natureza desafiadora do desenvolvimento do site, cada membro da equipe se compromete a aprender continuamente novas habilidades para melhorar suas contribuições.
+
+Orgulho no trabalho individual: À medida que os membros da equipe adquirem novas habilidades e superam desafios, eles se sentem realizados e motivados a continuar contribuindo de maneira significativa para o projeto.
+
+A equipe está organizada da seguinte forma: [descreva a organização da equipe, se necessário, com detalhes sobre funções e responsabilidades:
+
+Scrum Master: Geovanne do Monte Ribeiro
+
+Product Owner: Mayra Gabriella Vitoriana Machado Rodriguez
+
+Equipe de Desenvolvimento:
+
+Arthur Oliveira
+Bianca Cristina Sousa Santana
+Otávio Cavallieri Silva
+
+Equipe de Design:
+
+Lucas Emanuel Pereira Rodrigues
+Peterson Alves Gervazio
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Planejamento e Gestáo Ágil de Projetos](https://pucminas.instructure.com/courses/87878/pages/unidade-2-tema-2-utilizacao-de-ferramentas-para-controle-de-versoes-de-software)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards)
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Para organizar e distribuir as tarefas do projeto, a equipe utiliza a plataforma GitHub, que oferece diversas funcionalidades para aumentar a eficiência do grupo, como a criação de listas, cartões, etiquetas e botões personalizados com ações automáticas.
+
+O ambiente de trabalho no Trello está estruturado da seguinte maneira:
+
+Recursos para Projetos: Esta lista contém todas as informações relevantes do projeto, como links para o Google Drive, GitHub, MarvelApp, o próprio Trello, agendamento de reuniões semanais com a orientadora e avisos importantes.
+
+A fazer: Aqui são listadas todas as tarefas que precisam ser executadas na etapa atual do projeto. Cada tarefa possui uma descrição com dicas sobre como realizá-la, ideias para adicionar conteúdo, data limite e etiquetas indicando sua prioridade.
+
+Em desenvolvimento: Nesta lista são exibidas as tarefas que estão atualmente em andamento. Cada tarefa inclui o nome do membro responsável e a data em que foi atribuída a ele. Uma tarefa pode ter um ou mais membros trabalhando nela simultaneamente.
+
+Concluído: Esta lista registra as tarefas que foram concluídas, servindo como um histórico do progresso do projeto. Cada tarefa concluída inclui a data de conclusão e quem a revisou.
+
+O ambiente de trabalho desenvolvido no Trello pode ser acessado através da [URL https://trello.com/b/TMofVulh](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/768/views/1) e está apresentado no estado atual na figura a seguir: [inserir a descrição ou imagem da figura a seguir:
+
+
+
+IMAGEM
+
+
 
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+Canva.
+Figma.
+GitHub.
+Git.
+Microsoft Teams.
+Visual Studio Code.
+Expo
 
-O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
-
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+O Expo foi escolhido porque ele possui uma integração com o GitHub muito fácil de se utilizar. 
