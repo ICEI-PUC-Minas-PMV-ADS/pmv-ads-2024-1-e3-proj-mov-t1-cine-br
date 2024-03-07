@@ -60,27 +60,30 @@ Orgulho no trabalho individual: À medida que os membros da equipe adquirem nova
 
 A equipe está organizada da seguinte forma: [descreva a organização da equipe, se necessário, com detalhes sobre funções e responsabilidades:
 
-Scrum Master: Geovanne do Monte Ribeiro
+**Scrum Master: 
 
-Product Owner: Mayra Gabriella Vitoriana Machado Rodriguez
+*Geovanne do Monte Ribeiro
 
-Equipe de Desenvolvimento:
+**Product Owner: 
 
-Arthur Oliveira
-Bianca Cristina Sousa Santana
-Otávio Cavallieri Silva
+*Mayra Gabriella Vitoriana Machado Rodriguez
+
+** Equipe de Desenvolvimento:
+
+*Arthur Oliveira
+*Bianca Cristina Sousa Santana
+*Otávio Cavallieri Silva
 
 Equipe de Design:
 
-Lucas Emanuel Pereira Rodrigues
-Peterson Alves Gervazio
+*Lucas Emanuel Pereira Rodrigues
+*Peterson Alves Gervazio
 
 ### Processo
 
 Para organizar e distribuir as tarefas do projeto, a equipe utiliza a plataforma GitHub, que oferece diversas funcionalidades para aumentar a eficiência do grupo, como a criação de listas, cartões, etiquetas e botões personalizados com ações automáticas.
 
 O ambiente de trabalho no Github Planejamento está estruturado da seguinte maneira:
-
 
 A fazer: Aqui são listadas todas as tarefas que precisam ser executadas na etapa atual do projeto. Cada tarefa possui uma descrição com dicas sobre como realizá-la, ideias para adicionar conteúdo, data limite e etiquetas indicando sua prioridade.
 
@@ -100,12 +103,12 @@ IMAGEM
 
 As ferramentas empregadas no projeto são:
 
-Canva.
-Figma.
-GitHub.
-Git.
-Microsoft Teams.
-Visual Studio Code.
-Expo
+*Canva.
+*Figma.
+*GitHub.
+*Git.
+*Microsoft Teams.
+*Visual Studio Code.
+*Expo
 
 O Expo foi escolhido porque ele possui uma integração com o GitHub muito fácil de se utilizar. 
