@@ -75,13 +75,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |**Frustrações**         |*Não encontrar um aplicativo que acompanhe suas preferências e interesses cinematográficos, tornando difícil a escolha de um filme para assistir com os amigos.*Não poder compartilhar suas experiências e opiniões sobre os filmes facilmente nas redes sociais devido à falta de integração com aplicativos de mídia social|
 
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
-
 ## Modelagem do Processo de Negócio 
 
 ### Análise da Situação Atual
@@ -110,7 +103,7 @@ Apresente aqui os principais indicadores de desempenho e algumas metas para o pr
 
 Usar o seguinte modelo: 
 
-![Indicadores de Desempenho](img/02-indic-desemp.png)
+![Processo 2](img/indicadoresdedesempenho.png)
 Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
 
 ## Requisitos
