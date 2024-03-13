@@ -4,7 +4,13 @@
 
 Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
+Pagina Home ( Mayra Rodriguez) 
+
+
+![Home Mayra](img/May1.jpeg)
+![Home Mayra](img/May2.jpeg)
+
+Ao implementar essa pagina necessitei estudar os microfundamento da quinta etapa, a principio não encontrei dificuldades a fazer essa parte, foi criado botoes mas de momento não carrega nenhum link, tambem há um cabeçario com menus mas de momento não estão funcionando.
 
 > **Links Úteis**:
 >
