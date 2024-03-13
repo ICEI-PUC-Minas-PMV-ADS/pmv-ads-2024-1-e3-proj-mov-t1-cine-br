@@ -92,7 +92,7 @@ Em desenvolvimento: Nesta lista são exibidas as tarefas que estão atualmente e
 
 Concluído: Esta lista registra as tarefas que foram concluídas, servindo como um histórico do progresso do projeto. Cada tarefa concluída inclui a data de conclusão e quem a revisou.
 
-O ambiente de trabalho desenvolvido no Trello pode ser acessado através da [https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/768/views/1) e está apresentado no estado atual na figura a seguir: [inserir a descrição ou imagem da figura a seguir:
+O ambiente de trabalho desenvolvido no GitHub pode ser acessado através da [https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/768/views/1) e está apresentado no estado atual na figura a seguir: [inserir a descrição ou imagem da figura a seguir:
 
 
 
