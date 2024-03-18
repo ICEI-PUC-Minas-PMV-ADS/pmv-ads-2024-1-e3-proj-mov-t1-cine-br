@@ -9,7 +9,15 @@ Este plano de testes abrange todas as funcionalidades principais do aplicativo, 
 ## Metodologia de Testes
 Os testes serão conduzidos utilizando uma combinação de técnicas manuais e automatizadas. Serão criados casos de teste específicos para cada funcionalidade a ser avaliada.
 
+## Critérios de Aceitação
+- Todas as funcionalidades principais devem estar implementadas e funcionando corretamente.
+- Mensagens de erro devem ser exibidas corretamente em caso de falhas.
+- O sistema deve integrar-se corretamente com sistemas externos, como métodos de pagamento.
 
+## Recursos Necessários
+- Ambiente de teste com acesso ao aplicativo em diferentes plataformas ( iOS e Android).
+- Equipe de teste para execução dos casos de teste.
+- Ferramentas de teste automatizado, se aplicável.
 
 
 
