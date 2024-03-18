@@ -20,7 +20,7 @@ Os testes serão conduzidos utilizando uma combinação de técnicas manuais e a
 - Ferramentas de teste automatizado, se aplicável.
 
 ## Cronograma de Testes
-Os testes de funcionalidades serão realizados ao longo de uma semana, com foco na execução de casos de teste específicos para cada funcionalidade.
+Os testes de funcionalidades serão realizados de acordo com o Gerenciamento de Projeto que vão desde a etapa 1 até a etapa 5, com foco na execução de casos de teste específicos para cada funcionalidade.
 
 ## Responsáveis
 - Equipe de QA: Responsável pela execução dos testes e relatório de bugs.
