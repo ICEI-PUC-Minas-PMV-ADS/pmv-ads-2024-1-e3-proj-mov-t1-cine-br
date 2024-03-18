@@ -3,16 +3,11 @@
 ## Objetivo
 O objetivo deste plano de testes é verificar se todas as funcionalidades do aplicativo foram implementadas corretamente, garantindo que o sistema atenda aos requisitos de negócio definidos.
 
+## Escopo
+Este plano de testes abrange todas as funcionalidades principais do aplicativo, incluindo cadastro de usuário, pesquisa de cinemas, compra de ingressos, reserva de assentos, entre outros.
 
-
-
-
-
-
-
-
-
-
+## Metodologia de Testes
+Os testes serão conduzidos utilizando uma combinação de técnicas manuais e automatizadas. Serão criados casos de teste específicos para cada funcionalidade a ser avaliada.
 
 
 
