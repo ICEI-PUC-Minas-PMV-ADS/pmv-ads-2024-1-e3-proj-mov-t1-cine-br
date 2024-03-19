@@ -12,6 +12,12 @@ Pagina Home ( Mayra Rodriguez)
 
 Ao implementar essa pagina necessitei estudar os microfundamento da quinta etapa, a principio não encontrei dificuldades a fazer essa parte, foi criado botoes mas de momento não carrega nenhum link, tambem há um cabeçario com menus mas de momento não estão funcionando.
 
+
+# Tela de Cadastro ( Arthur Oliveira )
+
+![Captura de tela 2024-03-19 153027](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-cine-br/assets/131923836/36a271ec-9cc2-4734-991d-319c335b8747)
+
+
 > **Links Úteis**:
 >
 > - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
