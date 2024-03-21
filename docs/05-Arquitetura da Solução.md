@@ -48,6 +48,7 @@ Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do ba
 
 ### IDE de Desenvolvimento:
 - Visual Studio Code: Será utilizada como a IDE principal para o desenvolvimento do código do aplicativo.
+- [Exo](https://expo.dev/)
 
 ### Ferramenta de Versionamento:
 - Git: Sistema de controle de versão será utilizado para o gerenciamento do código-fonte do projeto, permitindo o acompanhamento das alterações, colaboração entre os membros da equipe e controle preciso das versões do software.
