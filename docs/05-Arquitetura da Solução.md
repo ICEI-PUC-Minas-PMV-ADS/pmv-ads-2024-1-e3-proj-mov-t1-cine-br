@@ -34,9 +34,35 @@ Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do ba
 
 ## Tecnologias Utilizadas
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+### Linguagens de Programação:
+- JavaScript: Utilizada para o desenvolvimento tanto do frontend quanto do backend do aplicativo.
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+### Framework de Desenvolvimento Mobile:
+- React Native: Framework JavaScript para o desenvolvimento de aplicativos móveis multiplataforma, permitindo a criação de uma única base de código para Android e iOS.
+
+### Banco de Dados:
+- SQLite: Um sistema de gerenciamento de banco de dados relacional que será utilizado para armazenar informações sobre os cinemas, filmes e reservas de ingressos.
+
+### Arquitetura de Sistema:
+- A arquitetura será cliente-servidor, onde o aplicativo móvel (cliente) se comunicará com um servidor via REST API para realizar operações como reserva de ingressos e consulta de informações sobre os filmes em cartaz.
+
+### IDE de Desenvolvimento:
+- Visual Studio Code: Será utilizada como a IDE principal para o desenvolvimento do código do aplicativo.
+
+### Ferramenta de Versionamento:
+- Git: Sistema de controle de versão será utilizado para o gerenciamento do código-fonte do projeto, permitindo o acompanhamento das alterações, colaboração entre os membros da equipe e controle preciso das versões do software.
+
+## Fluxo de Interação do Usuário
+
+1. O usuário abre o aplicativo em seu dispositivo móvel.
+2. O aplicativo, desenvolvido em React Native, exibe a interface do usuário, permitindo que ele navegue pelos filmes em cartaz e selecione um para visualizar detalhes.
+3. Quando o usuário decide reservar um assento, o aplicativo envia uma solicitação para o servidor backend através de uma chamada de API REST.
+4. O servidor, que implementa a lógica de negócios, processa a solicitação, verifica a disponibilidade de ingressos e realiza a reserva no banco de dados SQLite.
+5. O servidor responde ao aplicativo com o status da reserva.
+6. O aplicativo exibe uma confirmação da reserva ao usuário e atualiza a interface para refletir as alterações.
+7. O usuário pode então visualizar seus ingressos reservados e, se desejar, finalizar a compra através do aplicativo.
+
+Durante todo o processo, o Git é utilizado para o controle de versão do código-fonte, permitindo o desenvolvimento colaborativo e o gerenciamento eficiente das alterações.
 
 ## Hospedagem
 
