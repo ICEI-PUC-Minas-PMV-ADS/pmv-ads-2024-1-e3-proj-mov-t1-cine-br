@@ -7,9 +7,11 @@ Implementação do sistema descritas por meio dos requisitos funcionais e/ou nã
 Pagina Home ( Mayra Rodriguez) 
 
 
-![Home Mayra](img/May1.jpeg)
-![Home Mayra](img/May2.jpeg)
-
+![Home Mayra](img/may1.png)
+![Home Mayra](img/may5.png)
+![Home Mayra](img/may4.png)
+![Home Mayra](img/may3.png)
+![Home Mayra](img/May2.png)
 Ao implementar essa pagina necessitei estudar os microfundamento da quinta etapa, a principio não encontrei dificuldades a fazer essa parte, foi criado botoes mas de momento não carrega nenhum link, tambem há um cabeçario com menus mas de momento não estão funcionando.
 
 
