@@ -65,16 +65,29 @@ Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do ba
 
 Durante todo o processo, o Git é utilizado para o controle de versão do código-fonte, permitindo o desenvolvimento colaborativo e o gerenciamento eficiente das alterações.
 
-## Hospedagem
+## Hospedagem e Lançamento na Vercel
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+Para hospedar e lançar a plataforma, optamos por utilizar a plataforma Vercel.
 
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+1. **Facilidade de Uso:** A Vercel oferece uma interface intuitiva, facilitando o processo de hospedagem e lançamento da plataforma.
+
+2. **Integração com o Git:** A Vercel possui integração com sistemas de controle de versão como o Git, permitindo que o código do projeto seja facilmente vinculado e atualizado na plataforma.
+
+3. **Deploy:** A Vercel suporta o conceito de deploy contínuo, o que significa que cada vez que houver uma alteração no repositório Git associado ao projeto, a plataforma automaticamente realiza o deploy da nova versão da aplicação.
+
+4. **Suporte a Tecnologias Modernas:** A Vercel suporta uma ampla gama de tecnologias modernas, incluindo JavaScript, React, Node.js, entre outras, o que torna a plataforma adequada para o nosso projeto desenvolvido em React Native.
+
+### O processo de hospedagem e lançamento da plataforma na Vercel envolve os seguintes passos:
+
+1. **Configuração do Projeto:** O projeto é configurado na plataforma Vercel, onde definimos as configurações básicas, como o nome do projeto, a integração com o repositório Git e outras opções relevantes.
+
+2. **Definição das Configurações de Build:** Configuramos as opções de build do projeto na Vercel.
+
+3. **Deploy Inicial:** Realizamos o primeiro deploy da plataforma, onde o código do projeto é enviado para a Vercel e a aplicação é construída e disponibilizada online.
+
+4. **Testes e Validação:** Após o deploy inicial, realizamos testes e validações para garantir que a plataforma esteja funcionando conforme o esperado.
+
+5. **Lançamento Oficial:** Uma vez que a plataforma tenha sido testada e validada com sucesso, realizamos o lançamento oficial.
 
 ## Qualidade de Software
 
