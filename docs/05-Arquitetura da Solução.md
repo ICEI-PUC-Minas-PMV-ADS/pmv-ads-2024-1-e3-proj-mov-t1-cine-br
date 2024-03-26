@@ -22,11 +22,49 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 ## Esquema Relacional
 
-O Esquema Relacional corresponde à representação dos dados em tabelas juntamente com as restrições de integridade e chave primária.
+### 1. Tabela Cidade
+- id_cidade (Chave Primária)
+- nome_cidade 
  
-As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Relacional”.
+### 2. Tabela Cinema
+- id_cinema (Chave Primária)
+- nome_cinema
+- endereco
+- id_cidade (Chave Estrangeira referenciando id_cidade da tabela Cidade)
 
-> - [Criando um modelo relacional - Documentação da IBM](https://www.ibm.com/docs/pt-br/cognos-analytics/10.2.2?topic=designer-creating-relational-model)
+### 3. Tabela Filme
+- id_filme (Chave Primária)
+- nome_filme
+- classificacao_etaria
+- duracao
+
+### 4. Tabela Sessao
+- id_sessao (Chave Primária)
+- id_filme (Chave Estrangeira referenciando id_filme da tabela Filme)
+- id_cinema (Chave Estrangeira referenciando id_cinema da tabela Cinema)
+- horario
+- preco
+
+### 5. Tabela Usuario
+- id_usuario (Chave Primária)
+- nome
+- email
+- senha
+
+### 6. Tabela Ingresso
+- id_ingresso (Chave Primária)
+- id_sessao (Chave Estrangeira referenciando id_sessao da tabela Sessao)
+- id_usuario (Chave Estrangeira referenciando id_usuario da tabela Usuario)
+- quantidade
+- total
+
+### Descrição dos Relacionamentos:
+- Cidade -> Cinema: Um para muitos (Uma cidade pode ter vários cinemas, mas um cinema pertence a uma única cidade).
+- Cinema -> Sessao: Um para muitos (Um cinema pode ter várias sessões, mas uma sessão pertence a um único cinema).
+- Filme -> Sessao: Um para muitos (Um filme pode ter várias sessões, mas uma sessão pertence a um único filme).
+- Usuario -> Ingresso: Um para muitos (Um usuário pode comprar vários ingressos, mas um ingresso pertence a um único usuário).
+- Sessao -> Ingresso: Um para muitos (Uma sessão pode ter vários ingressos vendidos, mas um ingresso pertence a uma única sessão).
+
 
 ## Modelo Físico
 
