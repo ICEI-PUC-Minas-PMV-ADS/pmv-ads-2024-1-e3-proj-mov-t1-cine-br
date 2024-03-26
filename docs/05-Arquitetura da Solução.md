@@ -68,7 +68,12 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 ## Modelo Físico
 
-Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
+### Tabela Cidade:
+
+CREATE TABLE Cidade (
+    id_cidade INT PRIMARY KEY,
+    nome_cidade TEXT
+);
 
 ## Tecnologias Utilizadas
 
