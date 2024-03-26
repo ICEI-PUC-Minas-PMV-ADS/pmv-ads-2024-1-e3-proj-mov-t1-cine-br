@@ -70,10 +70,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 ### Tabela Cidade:
 
-CREATE TABLE Cidade (
-    id_cidade INT PRIMARY KEY,
-    nome_cidade TEXT
-);
+![Esquema Relacional - Modelo Fisico](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-cine-br/assets/129304075/aca50e25-6146-4968-a6af-d37c40203d65)
 
 ## Tecnologias Utilizadas
 
