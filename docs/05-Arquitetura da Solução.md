@@ -70,7 +70,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 ### Tabela Cidade:
 
-![Esquema Relacional - Modelo Fisico](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-cine-br/assets/129304075/aca50e25-6146-4968-a6af-d37c40203d65)
+![Esquema Relacional - Modelo Fisico vs2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-cine-br/assets/129304075/19bd050e-d98d-4d71-99b2-62c37d2900a4)
 
 ## Tecnologias Utilizadas
 
