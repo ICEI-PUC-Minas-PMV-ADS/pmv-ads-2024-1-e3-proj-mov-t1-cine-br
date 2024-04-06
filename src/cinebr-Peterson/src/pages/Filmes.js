@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, Image, ScrollView } from 'react-native';
 
-// Componente de cabeçalho
+
 const Header = () => {
     return (
         <View style={styles.header}>
@@ -14,7 +14,7 @@ const Header = () => {
     );
 };
 
-// Componente para representar um filme
+
 const Filme = ({ titulo, descricao, imagem, onPress }) => {
     return (
         <TouchableOpacity style={styles.movieContainer} onPress={onPress}>
