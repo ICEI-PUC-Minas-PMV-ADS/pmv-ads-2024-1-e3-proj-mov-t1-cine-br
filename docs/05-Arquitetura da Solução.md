@@ -129,12 +129,66 @@ Para hospedar e lançar a plataforma, optamos por utilizar a plataforma Vercel.
 
 ## Qualidade de Software
 
-Conceituar qualidade de fato é uma tarefa complexa, mas ela pode ser vista como um método gerencial que através de procedimentos disseminados por toda a organização, busca garantir um produto final que satisfaça às expectativas dos stakeholders.
+A qualidade de software é uma medida da conformidade de um produto de software com seus requisitos funcionais e não funcionais, bem como com os padrões de desenvolvimento e as expectativas dos usuários. Garantir a qualidade de software é essencial para garantir que o produto final atenda às necessidades e expectativas dos clientes, além de garantir sua eficácia, segurança e confiabilidade.
 
-No contexto de desenvolvimento de software, qualidade pode ser entendida como um conjunto de características a serem satisfeitas, de modo que o produto de software atenda às necessidades de seus usuários. Entretanto, tal nível de satisfação nem sempre é alcançado de forma espontânea, devendo ser continuamente construído. Assim, a qualidade do produto depende fortemente do seu respectivo processo de desenvolvimento.
+1. **Introdução** \
+Este documento descreve os aspectos relacionados à qualidade de software do projeto de desenvolvimento do aplicativo de cinemas "CineFácil". O objetivo é garantir que o software atenda aos mais altos padrões de qualidade, proporcionando uma experiência excepcional aos usuários.
 
-A norma internacional ISO/IEC 25010, que é uma atualização da ISO/IEC 9126, define oito características e 30 subcaracterísticas de qualidade para produtos de software.
-Com base nessas características e nas respectivas sub-características, identifique as sub-características que sua equipe utilizará como base para nortear o desenvolvimento do projeto de software considerando-se alguns aspectos simples de qualidade. Justifique as subcaracterísticas escolhidas pelo time e elenque as métricas que permitirão a equipe avaliar os objetos de interesse.
+2. **Objetivos da Qualidade** \
+Os principais objetivos da qualidade para o aplicativo CineBR são:
+- Garantir a confiabilidade do aplicativo, minimizando falhas e erros.
+- Assegurar a usabilidade, tornando o aplicativo fácil e intuitivo de usar.
+- Garantir a eficiência do aplicativo, mantendo um desempenho rápido e responsivo.
+- Facilitar a manutenibilidade do aplicativo, permitindo futuras atualizações e modificações sem grandes dificuldades.
+- Garantir a portabilidade do aplicativo, permitindo sua execução em diferentes dispositivos e sistemas operacionais.
+
+3. **Requisitos de Qualidade** \
+Os requisitos de qualidade para o aplicativo CineBR incluem:
+- O aplicativo deve ser compatível com os principais sistemas operacionais móveis, incluindo Android e iOS.
+- O aplicativo deve ser fácil de usar, mesmo para usuários sem experiência técnica.
+- O tempo de resposta do aplicativo deve ser rápido, garantindo uma experiência fluida ao usuário.
+- O aplicativo deve ser seguro, protegendo os dados dos usuários contra acesso não autorizado.
+- O aplicativo deve ser facilmente atualizável, permitindo a introdução de novos recursos e correções de bugs de forma rápida e eficiente.
+
+4. **Padrões e Normas** \
+O desenvolvimento do aplicativo CineBR seguirá os seguintes padrões e normas de qualidade:
+ISO/IEC 25010 (SQuaRE) para garantir a qualidade do software em termos de funcionalidade, confiabilidade, usabilidade, eficiência, manutenibilidade e portabilidade.
+Padrões de design e desenvolvimento recomendados pela Apple e Google para aplicativos móveis.
+
+5. **Plano de Garantia da Qualidade** \
+O plano de garantia da qualidade inclui:
+- Testes de unidade, integração e sistema para garantir que o software atenda aos requisitos de qualidade especificados.
+- Revisões de código regulares para identificar e corrigir possíveis problemas.
+- Auditorias de qualidade para garantir a conformidade com os padrões e normas estabelecidos.
+
+6. **Plano de Controle da Qualidade** \
+O plano de controle da qualidade inclui:
+- Monitoramento contínuo do desempenho do aplicativo para identificar possíveis problemas.
+- Ações corretivas imediatas em caso de falhas ou erros.
+- Análise de tendências para identificar áreas de melhoria contínua.
+
+7. **Processos e Procedimentos** \
+Os processos e procedimentos para garantir a qualidade do software incluem:
+- Definição clara de papéis e responsabilidades da equipe de desenvolvimento.
+- Uso de metodologias ágeis, como Scrum, para o desenvolvimento iterativo e incremental do aplicativo.
+- Implementação de práticas de desenvolvimento seguro de software para garantir a segurança do aplicativo.
+
+8. **Métricas de Qualidade** \
+As métricas de qualidade que serão monitoradas incluem:
+- Taxa de satisfação do usuário.
+- Número de falhas ou erros relatados.
+- Tempo médio de resposta do aplicativo.
+- Taxa de sucesso nas atualizações do aplicativo.
+
+9. **Relatórios de Qualidade** \
+Os relatórios de qualidade serão gerados regularmente e incluirão:
+- Relatórios de teste detalhando os resultados dos testes de qualidade.
+- Relatórios de auditoria destacando áreas de conformidade e não conformidade.
+- Relatórios de desempenho do aplicativo, incluindo métricas de qualidade monitoradas.
+
+10. **Melhorias Contínuas** \
+Para garantir a melhoria contínua da qualidade do software, serão realizadas revisões regulares dos processos e procedimentos, além da implementação de ações corretivas e preventivas conforme necessário.
+
 
 > **Links Úteis**:
 >
