@@ -107,6 +107,10 @@ Usar o seguinte modelo:
 ![Indicadores de desempenho](img/indicadoresdedesempenho.png)
 Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
 
+### Gráfico Burndown 
+Ao longo do projeto utilizaremos o gráfico burndown para avaliar o desempenho da equipe. Cada etapa será considerada uma sprint do método Scrum. 
+
+![Gráfico Burndown](img/burndownEtapa2.png)
 
 ## Requisitos
 
