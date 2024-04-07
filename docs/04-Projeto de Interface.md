@@ -20,75 +20,90 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 ## Wireframes
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
+A princípio, o Projeto tem como escopos principais a celeridade de processamento e a praticidade de acesso. Tais pontos são essenciais para tornar a experiência do usuário a mais positiva possível. Por último, também é uma meta a responsividade do site com o intuito de estabelecer o acesso em mais de um tipo de dispositivo eletroeletrônico.
 
-![Exemplo de Wireframe](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-cine-br/blob/main/docs/img/Captura%20de%20tela%202024-04-07%20155927.png)
+O Diagrama abaixo na Figura 2 demonstra o fluxo de interação do usuário pelas telas do sistema. Cada tela deste fluxo será apresentada na seção de wireframes que segue abaixo. Disponibilizamos o link do site para visualização:
+
+![Wireframe](img/figma.png)
 
 
 **TELA DE INÍCIO - 1** 
 
-Fica no centro da tela, possui a logo do APP e os botões para navegação.
+Tela – Home
 
-CONTEÚDO:
-- Ao clicar no primeiro botão (Tenho uma reserva) caso possuir cadastro, o usuário é direcionado para a tela de reserva, caso contrário é direcionado para a tela de cadastro.
-- Ao clicar no segundo botão (Meu cinema), o usuário é direcionado para tela de cinemas.
+De acordo com o fluxo de telas do projeto apresentado anteriormente, as telas do sistema serão detalhadas nos itens subsequentes. As telas do sistema possuem uma estrutura comum, que é exemplificada na Figma. Essa estrutura consiste em três grandes blocos, que são descritos a seguir:
 
+Barra Menu: Barra menu do app
+
+Conteúdo: tem dois boetoes de navegação escolha o seu estado e tenho uma reserva.
+
+![](img/home.png)
 
 **TELA DE CINEMAS -2**
 
-Tela onde podem ser visualizados os cinemas.
+Tela – Escolha o seu cinema
 
-CONTEÚDO:
-- O usuário tem as opções dos cinemas que estão disponíveis para sua escolha.
-- Ao clicar em alguns dos cinemas, o usuário e direcionado para os Filmes disponíveis.
+Tela que mostrará os cinemas disponiveis. 
 
+Barra Menu: Barra menu do app
+
+Conteúdo: aparecera os cinemas disponiveis 
+
+![](img/pag1.png)
 
 **TELA DE FILMES - 3**
 
 Tela onde é mostrado os filmes disponíveis.
 
-CONTEÚDO:
-- Os filmes disponíveis são todos exibidos nessa tela.
-- Ao clciar em algum dos filmes o usuário é direcionado para a tela de informação do filme.
+Barra Menu: Barra menu do app
 
+Conteúdo: aparecera os filmes disponiveis 
 
-
-**TELA DE FILME SELECIONADO - 4**
-
-Nesta tela o usuário pode ver sobre o filme que ele escolheu, e também possui um botão para fazer sua reserva
-
-CONTEÚDO:
-- O usuário tem disponível nessa tela todas as informações sobre o filme escolhido, como nome do filme, descrição, classificação, horários , preços, entre outros.
-- Ao clicar em reservar o usuário é direcionado para a tela de reserva.
-
+![](img/pag2.png)
 
 **TELA DE RESERVA - 5**
 
 Nesta tela o usuário pode ver e escolher os assentos , e logo abaixo possui um botão de reserva que pode ser clicado após ser escolhido o assento
 
-CONTEÚDO:
-- O usuário tem a liberdade para escolher os assentos (que estão disponíveis), após sua escolha, basta fazer a reserva
-- Ao clicar no botão de reservar , o usuário é levado para a tela de cadastro para finalizar a reserva.
+Barra Menu: Barra menu do app
+
+Conteúdo: aparecerá mais informações detalhadas do filme e um botão para fazer a reserva 
 
 
+![](img/pag3.png)
+
+**TELA DE FILME SELECIONADO - 4**
+
+Nesta tela o usuário pode ver sobre o filme que ele escolheu, e também possui um botão para fazer sua reserva
+
+Barra Menu: Barra menu do app
+
+Conteúdo: aparecerá as cadeiras disponiveis 
+
+
+![](img/pag5.png)
 
 **TELA DE CADASTRO - 6**
 
 Nesta tela o usuário pode fazer seu cadastro caso não possuir, ou se já possui fazer o login. E um botão para finalizar a reserva
 
 CONTEÚDO:
-- O usuário pode fazer o seu cadastro no app para concluir a reserva, respondendo os campos exigidos. Caso já possua uma conta, basta logar para concluir sua reserva. Após esse processo, a reserva será enviada para o e-mail cadastrado.
-- Ao clicar no botão de Finalizar o usuário finaliza sua reserva, e é direcionado para a tela final.
+Barra Menu: Barra menu do app
 
+Conteúdo: cliente poderá fazer cadastro ou login no app
+
+![](img/pag6.png)
 
 **TELA FINAL - 7**
 
 Possui uma mensagem de finalização e logo abaixo um botão de início
 
 CONTEÚDO:
-- Uma mensagem de finalização é exibida na tela após ser feito todo o processo
-- Ao clicar no botão de início o usuário é direcionado para a tela inicial
+Barra Menu: Barra menu do app
 
+Conteúdo: aparecerá uma mensagem de compra concluida.
+
+![](img/pag7.png)
 
 **LINK DO WIREFRAME NO FIGMA**
 https://www.figma.com/file/9zmCe67bVCwrT2sTmY3ZHb/Untitled?type=design&node-id=0%3A1&mode=design&t=kB2Nii0n5O7YwShV-1
