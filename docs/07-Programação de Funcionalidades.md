@@ -17,10 +17,15 @@ Implementação do sistema descritas por meio dos requisitos funcionais e/ou nã
 Ao implementar essa pagina necessitei estudar os microfundamento da quinta etapa, a principio não encontrei dificuldades a fazer essa parte, foi criado botoes mas de momento não carrega nenhum link, tambem há um cabeçario com menus mas de momento não estão funcionando.
 Na 3 etapa implementei complementos para a tela Home e tambem fiz a parte de navegaçao, foi um pouco mais complexa que a etapa anterior mas tudo saiu de forma correta. 
 
-# [Transições de telas ](https://www.youtube.com/watch?v=s1EU2fECQ1Y)
+* [Transições de telas ](https://www.youtube.com/watch?v=s1EU2fECQ1Y)
 
 
 Nesse video acima mostra como esta as transiçoes entre as telas.
+
+
+
+
+
 
 
 # Tela de Cadastro ( Arthur Oliveira )
