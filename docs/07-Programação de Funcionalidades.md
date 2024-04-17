@@ -4,7 +4,7 @@
 
 Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
 
-Pagina Home ( Mayra Rodriguez) 
+# Tela Home ( Mayra Rodriguez)
 
 
 ![Home Mayra](img/may1.png)
@@ -12,7 +12,10 @@ Pagina Home ( Mayra Rodriguez)
 ![Home Mayra](img/may4.png)
 ![Home Mayra](img/may3.png)
 ![Home Mayra](img/May2.png)
+![Vídeo da minha documentação](https://www.youtube.com/shorts/HQuGGYaiYCA)
+
 Ao implementar essa pagina necessitei estudar os microfundamento da quinta etapa, a principio não encontrei dificuldades a fazer essa parte, foi criado botoes mas de momento não carrega nenhum link, tambem há um cabeçario com menus mas de momento não estão funcionando.
+Na 3 etapa implementei complementos para a tela Home e tambem fiz a parte de navegaçao, foi um pouco mais complexa que a etapa anterior mas tudo saiu de forma correta. 
 
 
 # Tela de Cadastro ( Arthur Oliveira )
