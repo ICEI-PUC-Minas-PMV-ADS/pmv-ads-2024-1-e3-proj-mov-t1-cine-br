@@ -11,7 +11,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir:
 
 Casos de Testes
 
-CT-01 Home
+* CT-01 Home
 
 Requisitos Associados:
 |RF-002| Pesquisa de Cinemas por cidade 
@@ -19,7 +19,8 @@ Requisitos Associados:
 Objetivo do Teste:
 Verificar se está sendo possível a navegaçao dentre cidades.
 
-Passos:
+* Passos:
+* 
 1 Acessar o Aplicativo
 
 2 Escolher a cidade
