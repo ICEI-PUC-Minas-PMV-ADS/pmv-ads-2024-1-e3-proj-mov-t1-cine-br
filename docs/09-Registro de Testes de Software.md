@@ -38,3 +38,26 @@ Passos:
 * Barra de Menu funcional:
 
 ![Home Mayra](img/homeatual6.png)
+
+
+## CT-02
+
+* Acessar a Tela de cadastro
+* Verificar se a tela de cadastro é exibida corretamente, incluindo:<br>
+  Campos para inserção de nome, e-mail e senha.<br>
+  Botão de confirmação de cadastro.
+  
+![Captura de tela 2024-04-18 082858](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-cine-br/assets/131923836/21fdae6a-d5bf-4389-9dec-232d4bd4d040)
+
+* Preencher o formulário com informações válidas.
+  
+![Captura de tela 2024-04-18 101108](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-cine-br/assets/131923836/67c19639-2515-4351-83ca-1fe3847bcee9)
+
+* Clicar no botão de confirmação de cadastro.
+* Verificar se a tela de confirmação de cadastro é exibida corretamente.
+  
+![Captura de tela 2024-04-18 082949](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-cine-br/assets/131923836/a90b228b-c7a9-41ad-b408-6f9641905863)
+
+
+
+  
