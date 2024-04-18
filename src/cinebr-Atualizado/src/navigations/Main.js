@@ -10,6 +10,7 @@ import CinemasBeloHorizonte from '../pages/CinemasBeloHorizonte';
 import CinemasRioDeJaneiro from '../pages/CinemasRioDeJaneiro';
 import SelecionarAssento from '../pages/SelecionarAssento';
 import MensagemFim from '../pages/MensagemFim';
+import TelaCinemas from '../pages/TelaCinemas';
 
 const Stack = createStackNavigator();
 
@@ -24,6 +25,7 @@ const Main = () => {
       <Stack.Screen name="CinemasRioDeJaneiro" component={CinemasRioDeJaneiro} />
       <Stack.Screen name="SelecionarAssento" component={SelecionarAssento} />
       <Stack.Screen name="MensagemFim" component={MensagemFim} />
+      <Stack.Screen name="TelaCinemas" component={TelaCinemas} />
     </Stack.Navigator>
   );
 };
