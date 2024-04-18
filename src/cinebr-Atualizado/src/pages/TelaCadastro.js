@@ -1,5 +1,6 @@
 import React from 'react';
-import { View, Text, TextInput, TouchableOpacity, StyleSheet, Image } from 'react-native';
+import { View, Text, TextInput, TouchableOpacity, StyleSheet, Image, Alert } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 
 const CadastroPage = () => {
 
@@ -7,10 +8,18 @@ const CadastroPage = () => {
     const [email, setEmail] = React.useState('');
     const [senha, setSenha] = React.useState('');
 
+    const navigation = useNavigation();
+
     const handleCadastro = () => {
-        console.log('Nome:', nome);
-        console.log('Email:', email);
-        console.log('Senha:', senha);
+        // ---- Lógica ----
+
+        Alert.alert('Cadastro realizado com sucesso.', "clique em OK para continuar", [
+            { text: "OK", onPress: () => navigation.navigate('Home') }
+        ]);
+    };
+
+    const handleSignIn = () => {
+        navigation.navigate('Login');
     };
 
     return (
@@ -49,7 +58,7 @@ const CadastroPage = () => {
                 <Text style={styles.buttonText}>Cadastrar</Text>
             </TouchableOpacity>
 
-            <TouchableOpacity style={styles.textContainer}>
+            <TouchableOpacity style={styles.textContainer} onPress={handleSignIn}>
                 <Text style={styles.text}>Entrar</Text>
             </TouchableOpacity>
         </View>
@@ -112,7 +121,7 @@ const styles = StyleSheet.create({
         color: 'white',
         textAlign: 'center',
     },
-  
+
 });
 
 export default CadastroPage;
