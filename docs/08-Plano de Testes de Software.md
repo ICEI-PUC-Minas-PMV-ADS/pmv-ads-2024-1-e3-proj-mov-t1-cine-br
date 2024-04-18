@@ -46,7 +46,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir:
 
 **Passos:**
 
-1. Acessar o aplicativo.
+1. Acessar a Tela de Cadastro.
 2. Verificar se a tela de cadastro é exibida corretamente, incluindo:
    - Campos para inserção de nome, e-mail e senha.
    - Botão de confirmação de cadastro.
