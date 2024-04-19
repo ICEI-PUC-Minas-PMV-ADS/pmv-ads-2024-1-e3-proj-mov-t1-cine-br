@@ -21,13 +21,13 @@ class Home extends Component {
     // Navegar para a página correspondente à cidade selecionada
     switch (cidade) {
       case 'São Paulo':
-        this.props.navigation.navigate('CinemasSaoPaulo');
+        this.props.navigation.navigate('CineSp');
         break;
       case 'Belo Horizonte':
-        this.props.navigation.navigate('CinemasBeloHorizonte');
+        this.props.navigation.navigate('CineBh');
         break;
       case 'Rio de Janeiro':
-        this.props.navigation.navigate('CinemasRioDeJaneiro');
+        this.props.navigation.navigate('CineRio');
         break;
       default:
         break;
