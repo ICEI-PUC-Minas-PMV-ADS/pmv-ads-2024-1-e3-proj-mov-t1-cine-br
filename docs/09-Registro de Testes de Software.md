@@ -6,7 +6,7 @@ Instruções de acesso
 
 Acesse o App
 
-* CT-01 Home
+## CT-01 Home
 
 Passos:
 
@@ -40,7 +40,7 @@ Passos:
 ![Home Mayra](img/homeatual6.png)
 
 
-## CT-02
+## CT-02 Cafastro
 
 * Acessar a Tela de cadastro
 * Verificar se a tela de cadastro é exibida corretamente, incluindo:<br>
@@ -59,5 +59,29 @@ Passos:
 ![Captura de tela 2024-04-18 082949](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-cine-br/assets/131923836/a90b228b-c7a9-41ad-b408-6f9641905863)
 
 
+## CT-03 Cinemas
 
-  
+* Acessar a Tela Cinemas.
+* Verificar se a tela Cinemas é exibida corretamente.
+* Clicar no cinema escolhido.
+* Verificar se a tela Filmes em Cartaz é exibida corretamente.
+
+![teste_cinemas_bh](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-cine-br/assets/129304075/082707c1-b479-4a88-b4ee-1a7d68928c02)
+<br> 
+
+
+![teste_cinemas_bh_filmes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-cine-br/assets/129304075/7d416907-88e1-4d7d-ac1f-6da9d37c7d6d)
+
+
+## CT-04 Assentos
+
+* Acessar a Tela Assentos.
+* Verificar se a tela Assentos é exibida corretamente e se há assentos disponíveis.
+* Clicar no assento escolhido.
+
+![teste_assentos_disp](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-cine-br/assets/129304075/167f3f7d-cce9-499b-8f90-b7fdffb17a7e)
+<br>
+
+![teste_assentos_reserva](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-cine-br/assets/129304075/d4dbb423-943d-4e37-9a9c-95ec3cf2aa1e)
+
+
