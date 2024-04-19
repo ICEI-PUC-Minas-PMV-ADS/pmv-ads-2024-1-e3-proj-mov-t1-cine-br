@@ -117,6 +117,7 @@ const styles = StyleSheet.create({
     textAlign: 'center', 
   },
   verDetalhes: {
+    marginBottom: 20,
     color: 'blue',
     textAlign: 'center', 
   },
