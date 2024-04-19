@@ -8,26 +8,24 @@ const CinemasBeloHorizonte = () => {
   const navigation = useNavigation();
 
   const filmes = [
- {
-  nome: 'Animais Fantásticos: Os Segredos de Dumbledore',
-  sinopse: 'O professor Albus Dumbledore sabe que o poderoso bruxo das trevas Gellert Grindelwald está se movendo para assumir o controle do mundo bruxo. Incapaz de detê-lo sozinho, ele confia a Newt Scamander um plano contra o inimigo.',
-  imagem: 'https://m.media-amazon.com/images/S/pv-target-images/94d299d381ded85afac95ba386ef5557b6e737800be59f5337b017af05df339d.jpg',
-  id: 1,
-},
-
     {
-  nome: 'Godzilla e Kong: O Novo Império',
-  sinopse: 'Godzilla e o todo-poderoso Kong enfrentam uma ameaça colossal escondida nas profundezas do planeta, desafiando a sua própria existência e a sobrevivência da raça humana',
-  imagem: 'https://cinemax.pt/wp-content/uploads/2024/01/godzila.jpg',
-  id: 2,
-},
-  {
-  nome: 'Kung Fu Panda 4',
-  sinopse: 'Uma poderosa feiticeira que muda de forma coloca os olhos no Cajado da Sabedoria. Po de repente percebe que precisa de ajuda e logo descobre que heróis podem ser encontrados nos lugares mais inesperados.',
-  imagem: 'https://br.web.img3.acsta.net/pictures/23/12/13/18/13/4592801.jpg',
-  id: 3,
-},
-
+      nome: 'Animais Fantásticos: Os Segredos de Dumbledore',
+      sinopse: 'O professor Albus Dumbledore sabe que o poderoso bruxo das trevas Gellert Grindelwald está se movendo para assumir o controle do mundo bruxo. Incapaz de detê-lo sozinho, ele confia a Newt Scamander um plano contra o inimigo.',
+      imagem: 'https://m.media-amazon.com/images/S/pv-target-images/94d299d381ded85afac95ba386ef5557b6e737800be59f5337b017af05df339d.jpg',
+      id: 1,
+    },
+    {
+      nome: 'Godzilla e Kong: O Novo Império',
+      sinopse: 'Godzilla e o todo-poderoso Kong enfrentam uma ameaça colossal escondida nas profundezas do planeta, desafiando a sua própria existência e a sobrevivência da raça humana',
+      imagem: 'https://cinemax.pt/wp-content/uploads/2024/01/godzila.jpg',
+      id: 2,
+    },
+    {
+      nome: 'Kung Fu Panda 4',
+      sinopse: 'Uma poderosa feiticeira que muda de forma coloca os olhos no Cajado da Sabedoria. Po de repente percebe que precisa de ajuda e logo descobre que heróis podem ser encontrados nos lugares mais inesperados.',
+      imagem: 'https://br.web.img3.acsta.net/pictures/23/12/13/18/13/4592801.jpg',
+      id: 3,
+    },
   ];
 
   const handleFilmePress = (filme) => {
@@ -36,25 +34,26 @@ const CinemasBeloHorizonte = () => {
   };
 
   const handleCompraPress = () => {
-    // Lógica para adicionar o filme ao carrinho de compras
     console.log('Filme comprado:', selectedFilme);
-    // Fechar o modal
     setModalVisible(false);
-    // Navegar para a tela de Selecionar Assento
     navigation.navigate('SelecionarAssento');
   };
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
       {filmes.map((filme, index) => (
-        <TouchableOpacity key={index} style={styles.filmeContainer} onPress={() => handleFilmePress(filme)}>
-          <Image source={{ uri: filme.imagem }} style={styles.imagem} />
-          <Text style={styles.titulo}>{filme.nome}</Text>
-          <Text>{filme.sinopse}</Text>
-          <TouchableOpacity onPress={() => handleFilmePress(filme)}>
-            <Text style={styles.verDetalhes}>Ver Detalhes</Text>
-          </TouchableOpacity>
-        </TouchableOpacity>
+      <View key={index} style={styles.filmeContainer}>
+  <TouchableOpacity onPress={() => handleFilmePress(filme)}>
+    <View style={styles.cartazContainer}>
+      <Image source={{ uri: filme.imagem }} style={styles.imagem} />
+    </View>
+    <Text style={styles.titulo}>{filme.nome}</Text>
+    <Text>{filme.sinopse}</Text>
+    <TouchableOpacity onPress={() => handleFilmePress(filme)}>
+      <Text style={styles.verDetalhes}>Ver Detalhes</Text>
+    </TouchableOpacity>
+  </TouchableOpacity>
+</View>
       ))}
 
       <Modal
@@ -68,7 +67,9 @@ const CinemasBeloHorizonte = () => {
             <Text style={styles.modalText}>{selectedFilme?.nome}</Text>
             <Image source={{ uri: selectedFilme?.imagem }} style={styles.modalImage} />
             <Text>{selectedFilme?.sinopse}</Text>
+            <View style={styles.buttonContainer}>
             <Button title="Comprar" onPress={handleCompraPress} />
+            </View>
             <TouchableOpacity
               style={{ ...styles.openButton, backgroundColor: '#2196F3' }}
               onPress={() => setModalVisible(false)}
@@ -82,31 +83,42 @@ const CinemasBeloHorizonte = () => {
   );
 };
 
-// Estilos
 const styles = StyleSheet.create({
+
+  buttonContainer: {
+    margin: 10  
+  },
+
   container: {
-    flex: 1,
+    flexGrow: 1,
+    justifyContent: 'center',
     alignItems: 'center',
-    paddingVertical: 20,
+    padding: 20,
   },
   filmeContainer: {
-    alignItems: 'center',
     marginBottom: 20,
+    alignItems: 'center',
+  },
+  cartazContainer: {
+    alignItems: 'center',
   },
   imagem: {
-    width: 150,
-    height: 200,
+    width: 200,
+    height: 300,
     marginBottom: 10,
   },
   titulo: {
     fontSize: 18,
     fontWeight: 'bold',
     marginBottom: 5,
+    textAlign: 'center', 
+  },
+  sinopse: {
+    textAlign: 'center', 
   },
   verDetalhes: {
     color: 'blue',
-    textDecorationLine: 'underline',
-    marginTop: 5,
+    textAlign: 'center', 
   },
   centeredView: {
     flex: 1,
@@ -132,12 +144,12 @@ const styles = StyleSheet.create({
   modalText: {
     marginBottom: 15,
     textAlign: 'center',
+    fontSize: 18,
     fontWeight: 'bold',
-    fontSize: 20,
   },
   modalImage: {
-    width: 200,
-    height: 300,
+    width: 300,
+    height: 400,
     marginBottom: 10,
   },
   openButton: {
@@ -145,7 +157,7 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     padding: 10,
     elevation: 2,
-    marginTop: 10,
+    marginBottom: 10,
   },
   textStyle: {
     color: 'white',
@@ -153,5 +165,4 @@ const styles = StyleSheet.create({
     textAlign: 'center',
   },
 });
-
 export default CinemasBeloHorizonte;
