@@ -35,7 +35,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir:
 |---|---|
 | Requisitos Associados |  `RF-002`: Pesquisa de Cinemas por cidade. <br> |
 | Objetivo do Teste |Verificar se está sendo possível a navegaçao dentre cidades. |
-| Passos | `1.` Acessar o aplicativo. <br>  `2.` Escolher a cidade |
+| Passos | `1.` Acessar o aplicativo. <br>  `2.` Escolher a cidade  <br>  `2.` Escolher cinema |
 | Critérios de Êxito | `-`O Aplicativo deve abrir a pagina de cinemas de cada cidade de forma separada.  |
 <br>
 
