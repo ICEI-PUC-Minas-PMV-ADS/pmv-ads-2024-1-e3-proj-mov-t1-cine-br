@@ -52,7 +52,7 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir:
 |---|---|
 | Requisitos Associados |  `RF-003`: Visualização de Informações do Cinema. <br> |
 | Objetivo do Teste |Verificar se é possível vizualizar e acessar os cinemas diponíveis em uma determinada cidade. |
-| Passos | `1.` Acessar a Tela Cinemas. <br> `2.`  Verificar se a tela Cinemas é exibida corretamente. <br>  `3.` Clicar no cinema escolhido. <br>  `5.` Verificar se a tela Filmes em Cartas é exibida corretamente. |
+| Passos | `1.` Acessar a Tela Cinemas. <br> `2.`  Verificar se a tela Cinemas é exibida corretamente. <br>  `3.` Clicar no cinema escolhido. <br>  `5.` Verificar se a tela Filmes em Cartaz é exibida corretamente. |
 | Critérios de Êxito | `-` O fluxo de navegação entre a tela Cinemas e Tela Filmes em Cartaz deve ser suave e sem interrupções.   |
 | Observações: | |
 <br>
