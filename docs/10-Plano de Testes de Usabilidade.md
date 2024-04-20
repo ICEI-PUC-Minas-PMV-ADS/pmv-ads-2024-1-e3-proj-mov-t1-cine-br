@@ -26,3 +26,13 @@ Os testes de usabilidade serão realizados de acordo com o Gerenciamento de Proj
 - Equipe de UX/UI: Responsável pela concepção e design da interface do usuário.
 - Equipe de QA: Responsável pela organização e execução dos testes de usabilidade.
 - Equipe de Desenvolvimento: Responsável por fazer ajustes na interface com base nos resultados dos testes.
+
+## Tarefas
+
+|Tarefa n  | Critério de Êxito  |O que será avaliado |
+|-------|-------------------------|----|
+|Acessar Tela de Filmes em Cartaz| Após selecionar o cinema, a Tela de Filmes em Cartaz deverá ser exibida contendo os filmes disponíveis com respectivas sinopses e acesso para mais informações. | Facilidade em realizar a ação. Efetivação da tarefa. Tempo necessario para se concluir. Interface apresentável.  | 
+
+|Tarefa n  | Critério de Êxito  |O que será avaliado |
+|-------|-------------------------|----|
+|Acessar Tela de Detalhes sobre o Filme| Após selecionar o filme, a Tela de Detalhes do Filme deverá ser exibida contendo as informações disponíveis do filme em questão, como avaliação, classificação, sinopse e sessões disponíveis. | Facilidade em realizar a ação. Efetivação da tarefa. Tempo necessario para se concluir. Interface apresentável.  | 
