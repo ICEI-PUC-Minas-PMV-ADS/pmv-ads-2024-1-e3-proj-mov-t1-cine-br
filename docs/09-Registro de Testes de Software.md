@@ -40,7 +40,7 @@ Passos:
 ![Home Mayra](img/homeatual6.png)
 
 
-## CT-02 Cafastro
+## CT-02 Cadastro
 
 * Acessar a Tela de cadastro
 * Verificar se a tela de cadastro é exibida corretamente, incluindo:<br>
@@ -69,8 +69,19 @@ Passos:
 ![teste_cinemas_bh](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-cine-br/assets/129304075/082707c1-b479-4a88-b4ee-1a7d68928c02)
 <br> 
 
+## CT-04 Filmes
 
-![teste_cinemas_bh_filmes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-cine-br/assets/129304075/7d416907-88e1-4d7d-ac1f-6da9d37c7d6d)
+* Acessar a Tela Filmes em Cartaz.
+* Verificar se a tela Filmes em Cartaz é exibida corretamente.
+* Clicar no filme escolhido.
+* Verificar se a tela com detalhes sobre o filme é exibida corretamente.
+
+![teste_filmes info](img/bTelaFilmes.png)
+<br> 
+
+![teste_filmes info](img/bTelaInfos.png)
+
+obs: falta ainda adicionar o campo com as informações de classificação, avaliação e horários.
 
 
 ## CT-05 Assentos
