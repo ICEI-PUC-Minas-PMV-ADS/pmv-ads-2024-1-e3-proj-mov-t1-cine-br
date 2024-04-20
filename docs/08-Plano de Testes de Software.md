@@ -57,7 +57,16 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir:
 | Observações: | |
 <br>
 
-| Caso de Teste | CT-04: Assentos|
+| Caso de Teste | CT-04: Filmes|
+|---|---|
+| Requisitos Associados |  `RF-009`: Avaliação do filme. <br> |
+| Objetivo do Teste |Verificar se é possível visualizar e acessar detalhes do filme como classificação, avaliação, sinopse e horários. |
+| Passos | `1.` Acessar a Tela Filmes em Cartaz. <br> `2.`  Verificar se a tela Filmes em Cartaz é exibida corretamente. <br>  `3.` Clicar no filme escolhido. <br>  `5.` Verificar se a tela com detalhes sobre o filme é exibida corretamente. |
+| Critérios de Êxito | `-` A tela de detalhes sobre o filme deve ser acessível e apresentar as informações necessárias.   |
+| Observações: | |
+<br>
+
+| Caso de Teste | CT-05: Assentos|
 |---|---|
 | Requisitos Associados |  `RF-006`: Reserva de Assentos. <br> |
 | Objetivo do Teste |Vizualizar assentos disponíveis e verificar se é possível fazer reserva de assentos. |
