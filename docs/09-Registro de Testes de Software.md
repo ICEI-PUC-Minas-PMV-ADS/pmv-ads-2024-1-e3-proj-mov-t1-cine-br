@@ -73,7 +73,7 @@ Passos:
 ![teste_cinemas_bh_filmes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-cine-br/assets/129304075/7d416907-88e1-4d7d-ac1f-6da9d37c7d6d)
 
 
-## CT-04 Assentos
+## CT-05 Assentos
 
 * Acessar a Tela Assentos.
 * Verificar se a tela Assentos é exibida corretamente e se há assentos disponíveis.
