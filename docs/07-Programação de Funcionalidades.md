@@ -24,10 +24,6 @@ Nesse video acima mostra como esta as transiçoes entre as telas.
 
 
 
-
-
-
-
 # Tela de Cadastro ( Arthur Oliveira )
 
 ![Captura de tela 2024-03-19 153027](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-cine-br/assets/131923836/36a271ec-9cc2-4734-991d-319c335b8747)
@@ -40,3 +36,11 @@ Nesse video acima mostra como esta as transiçoes entre as telas.
 > - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
 > - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
 > - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+
+
+# Tela do Filme ( Bianca Santana )
+
+![FilmeInfo Bianca](img/bTelaInfos.png)
+
+Até o momento, no desenvolvimento dessa página, apenas alterei um pouco do estilo do texto, diposição dos botões e estilo dos botões. Para isso estudei o microfundamento Desenvolvimento de Aplicações Móveis da quinta etapa.  
+
