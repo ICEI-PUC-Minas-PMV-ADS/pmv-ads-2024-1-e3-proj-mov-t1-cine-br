@@ -67,15 +67,22 @@ const CinemasSaoPaulo = () => {
             <Text style={styles.modalText}>{selectedFilme?.nome}</Text>
             <Image source={{ uri: selectedFilme?.imagem }} style={styles.modalImage} />
             <Text>{selectedFilme?.sinopse}</Text>
+            <Text style={styles.moreInfo}> 
+              'Mais informações"
+            </Text>
             <View style={styles.buttonContainer}>
-            <Button title="Comprar" onPress={handleCompraPress} />
+              <View style={styles.customButton}>
+                <Button title="Reservar Ingresso" flex-direction='row' color='#4DCEC1' margin='10' onPress={handleCompraPress} />
+              </View>
+              <View style={styles.customButton}>
+                <TouchableOpacity
+                  style={{ ...styles.openButton, backgroundColor: '#4DCEC1' }}
+                  onPress={() => setModalVisible(false)}
+                >
+                  <Text style={styles.textStyle}>FECHAR</Text>
+                </TouchableOpacity>
+              </View>
             </View>
-            <TouchableOpacity
-              style={{ ...styles.openButton, backgroundColor: '#2196F3' }}
-              onPress={() => setModalVisible(false)}
-            >
-              <Text style={styles.textStyle}>Fechar</Text>
-            </TouchableOpacity>
           </View>
         </View>
       </Modal>
@@ -84,11 +91,17 @@ const CinemasSaoPaulo = () => {
 };
 
 const styles = StyleSheet.create({
-
-  buttonContainer: {
-    margin: 10  
+  buttonContainer:{
+    marginTop: 10,
   },
-
+  customButton: {
+    marginTop: 10,
+    backgroundColor: '#4DCEC1',
+    borderRadius: 20,
+    paddingVertical: 4,
+    paddingHorizontal: 100,
+    marginBottom: 7,
+  },
   container: {
     flexGrow: 1,
     justifyContent: 'center',
@@ -111,14 +124,13 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: 'bold',
     marginBottom: 5,
-    textAlign: 'center', 
+    textAlign: 'center',
+    color:'#4DCEC1',
   },
-  sinopse: {
-    textAlign: 'center' 
-  },
+
   verDetalhes: {
     marginBottom: 20,
-    color: 'blue',
+    color: '#4DCEC1',
     textAlign: 'center', 
   },
   centeredView: {
@@ -147,6 +159,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 18,
     fontWeight: 'bold',
+    color:'#4DCEC1',
   },
   modalImage: {
     width: 300,
@@ -155,10 +168,9 @@ const styles = StyleSheet.create({
   },
   openButton: {
     backgroundColor: '#F194FF',
-    borderRadius: 20,
-    padding: 10,
-    elevation: 2,
-    marginBottom: 10,
+    borderRadius: 30,
+    padding: 10, 
+    marginBottom: 7,
   },
   textStyle: {
     color: 'white',
