@@ -112,6 +112,8 @@ Ao longo do projeto utilizaremos o gráfico burndown para avaliar o desempenho d
 
 ![Gráfico Burndown](img/burndownEtapa2.png)
 
+![Gráfico Burndown](img/burndownEtapa3.png)
+
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
