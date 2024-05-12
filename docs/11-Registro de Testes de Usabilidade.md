@@ -6,3 +6,11 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Registro de
 
 > **Links Úteis**:
 > - [Ferramentas de Testes de Usabilidade](https://www.usability.gov/how-to-and-tools/resources/templates.html)
+
+
+|Usuário|Idade|Artefato|
+|-------|-----|----|
+|-------|-----|----|
+|-------|-----|----|
+|-------|-----|----|
+|-------|-----|----|
