@@ -44,3 +44,14 @@ Nesse video acima mostra como esta as transiçoes entre as telas.
 
 Até o momento, no desenvolvimento dessa página, apenas alterei um pouco do estilo do texto, diposição dos botões e estilo dos botões. Para isso estudei o microfundamento Desenvolvimento de Aplicações Móveis da quinta etapa.  
 
+# Tela Cinemas (Geovanne do Monte)
+
+![Print Geovanne - Cinemas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-cine-br/assets/129304075/4cd6ebe5-ae45-4167-876d-89eb555d7b9a)
+
+# Tela Assentos (Geovanne do Monte / Bia Santana)
+
+![Print Geovanne e Bia - Assentos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-cine-br/assets/129304075/b2869236-ad08-4c22-b250-7b2816f22690)
+
+
+
+
