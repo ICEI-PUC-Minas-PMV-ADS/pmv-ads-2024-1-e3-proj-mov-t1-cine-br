@@ -17,9 +17,12 @@ Carolina Melo é uma adolescente aficionada por tecnologia e mídia social. Ela 
 
 
 
+
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+
+
 
 ### Lucas Oliveira 
 
@@ -32,7 +35,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | **Motivações**         | * Encontrar uma forma rápida e eficiente de escolher um filme em cartaz para aproveitar o pouco tempo livre que tem nos fins de semana. * Quer facilidade de uso e recomendações ágeis para tomar decisões rápidas e se divertir com os amigos.|
 | **Objetivos**          | Seguir evoluindo profissionalmente |
 | **Hobbies**            | Leitura; Filmes e Séries; Língua Estrangeira; Viagens |
-|**Frustrações**         |*Perder tempo em aplicativos complicados ou que não oferecem uma seleção clara de filmes em cartaz.*Não conseguir decidir rapidamente e acabar perdendo a oportunidade de assistir a um filme por falta de organização na escolha.Gostaria de selecionar o acento na comodidade de sua casa.|
+|**Frustrações**         |*Perder tempo em aplicativos complicados ou que não oferecem uma seleção clara de filmes em cartaz.*Não conseguir decidir rapidamente e acabar perdendo a oportunidade de assistir a um filme por falta de organização na escolha.|
 
 
 ### Ana Machado 
@@ -46,7 +49,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | **Motivações**         | * Encontrar uma solução que se adapte à sua agenda agitada e facilite a programação de um momento de lazer no fim de semana. *Quer um aplicativo que forneça informações precisas sobre horários de exibição e disponibilidade de ingressos para que possa planejar com antecedência.|
 | **Objetivos**          | Seguir evoluindo profissionalmente |
 | **Hobbies**            | Leitura; Filmes e Séries; Revistas cientificas; Viagens |
-|**Frustrações**         |* Não ter tempo para buscar informações sobre os filmes em cartaz e acabar perdendo oportunidades de lazer.* Encontrar aplicativos confusos ou com pouca atualização sobre os horários de exibição, dificultando a escolha e a compra de ingressos. Gostaria poder ver as qualificações dos filmes.|
+|**Frustrações**         |* Não ter tempo para buscar informações sobre os filmes em cartaz e acabar perdendo oportunidades de lazer.* Encontrar aplicativos confusos ou com pouca atualização sobre os horários de exibição, dificultando a escolha e a compra de ingressos. |
 
 ### Pedro Braga
 
@@ -59,7 +62,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | **Motivações**         | *Desfrutar de sua aposentadoria explorando diferentes atividades culturais, como ir ao cinema frequentemente. *Valoriza um aplicativo intuitivo que ofereça uma variedade de opções de filmes em cartaz, permitindo-lhe escolher com facilidade.|
 | **Objetivos**          | Viajar o mundo, e se divertir |
 | **Hobbies**            | Leitura; Filmes e Séries; Viagens |
-|**Frustrações**         |* Encontrar aplicativos complicados de usar ou que não atendam às suas preferências de filmes.* Não conseguir informações claras sobre os filmes em cartaz, como trailers e sinopses, dificultando a tomada de decisão.Gostaria de ser notificada de novos filmes |
+|**Frustrações**         |* Encontrar aplicativos complicados de usar ou que não atendam às suas preferências de filmes.* Não conseguir informações claras sobre os filmes em cartaz, como trailers e sinopses, dificultando a tomada de decisão.|
 
 ### Carolina Melo
 
@@ -74,6 +77,14 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | **Hobbies**            | Leitura; Filmes e Séries; Teatro |
 |**Frustrações**         |*Não encontrar um aplicativo que acompanhe suas preferências e interesses cinematográficos, tornando difícil a escolha de um filme para assistir com os amigos.*Não poder compartilhar suas experiências e opiniões sobre os filmes facilmente nas redes sociais devido à falta de integração com aplicativos de mídia social.Gostaria de receber uma notificação de filmes comprados.|
 
+
+
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|------------------------------------|----------------------------------------|
+|Lucas Oliveira          | Logar na aplicação - Filtragem de Cinemas                 | Possuir minha própria conta - Filtrar os cinemas           |
+|Ana Machado              | Me cadastrar na aplicação - Reserva de Assentos          | Ter meu próprio perfil  e fazer reservas               |
+|Pedro Braga               | Visualização de Informações do Cinema   -  Notificações aos Usuários de novidade      | Fins de planejamento                   |
+|Carolina Melo             | Compra de Ingressos -Histórico de Compras  -Avaliação do filme        | Fins de praticidade                   |
 
 ## Modelagem do Processo de Negócio 
 
