@@ -14,7 +14,7 @@ Toda ferramenta tem seu propósito; a tabela seguinte irá explicar em que ambie
 |:----------------------------------:|:------------:|:------------------------------------------------------------------------------------:|
 |     Repositório de código fonte    |    GitHub    | [https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-2-e1-proj-web-t4-filmes  ](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-cine-br)|
 |        Documentos do projeto       | Teams | [https://drive.google.com/drive/folders/1POynLcQ6bOiBFRq-0w5JRyjmy7eRR508?usp=sharing](https://sgapucminasbr.sharepoint.com/:f:/s/team_sga_2418_2024_1_8512101-Time3-/EjX_trc0YHxOkz6cm5WIQ1wBE3HIE0uDxs2p96qWfP2vNQ?e=XKHpvD) |
-| Projeto de Interface e  Wireframes |   Figma  | FALTA LINK                               |
+| Projeto de Interface e  Wireframes |   Figma  | [FALTA LINK  ](https://www.figma.com/file/9zmCe67bVCwrT2sTmY3ZHb/Untitled?type=design&node-id=0%3A1&mode=design&t=kB2Nii0n5O7YwS                             |
 |      Gerenciamento do Projeto      |    GitHub    | [https://trello.com/b/TMofVulh](https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/768/views/1) |
 
 
