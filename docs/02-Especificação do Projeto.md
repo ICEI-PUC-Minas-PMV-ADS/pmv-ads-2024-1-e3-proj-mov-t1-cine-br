@@ -141,6 +141,7 @@ Esta análise atual e futura da empresa Cine Br oferece uma visão abrangente do
 
 Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
 
+
 ![Processo 1](img/parte1.png)
 
 ### Processo 2 – Fazer uma compra ao site
@@ -148,6 +149,15 @@ Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em segu
 Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN. 
 
 ![Processo 1](img/parte2.png)
+
+Processo 3 – Cadastro de Usuário
+O processo de cadastro de Usuário pode ser visto a seguir:
+
+![Processo 1](img/1.png)
+
+Processo 3 – Login
+O processo de login pode ser visto a seguir:
+![Processo 1](img/2.png)
 
 
 ## Indicadores de Desempenho
