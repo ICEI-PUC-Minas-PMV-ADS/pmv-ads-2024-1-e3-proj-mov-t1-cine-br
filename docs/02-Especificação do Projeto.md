@@ -90,11 +90,52 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Análise da Situação Atual
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
+A empresa Cine Br, atuante no mercado de entretenimento cinematográfico, tem desempenhado um papel fundamental ao facilitar o acesso do público aos mais recentes lançamentos cinematográficos. Com uma plataforma de compra de ingressos online, a Cine Br tem oferecido aos seus clientes a conveniência de reservar seus lugares nos cinemas parceiros de forma rápida e fácil, sem a necessidade de enfrentar filas ou preocupações de última hora.
 
-### Descrição Geral da Proposta
+Nesta análise, examinaremos tanto a situação atual da empresa Cine Br quanto suas perspectivas futuras. Inicialmente, destacaremos os pontos fortes e fracos da plataforma atual, identificando áreas que já se destacam e aspectos que requerem melhorias. Em seguida, exploraremos as oportunidades de crescimento e as possíveis soluções para aprimorar a experiência do cliente e manter a competitividade no mercado.
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+Com base nessa análise, será possível compreender melhor os desafios enfrentados pela empresa Cine Br e as estratégias necessárias para impulsionar seu crescimento e sucesso no cenário de compra de ingressos online.
+
+* Análise Atual da Empresa Cine Br
+Pontos Fortes:
+Variedade de Cinemas: A empresa Cine Br oferece uma ampla variedade de cinemas parceiros em diversas localidades, proporcionando aos clientes uma gama de opções para assistir aos filmes.
+
+Experiência do Usuário: A plataforma atual oferece uma experiência de usuário relativamente amigável, permitindo que os clientes naveguem pelos filmes em cartaz, horários e realizem compras de ingressos de forma intuitiva.
+
+Parcerias Estabelecidas: A Cine Br possui parcerias consolidadas com grandes redes de cinemas, o que fortalece sua posição no mercado e amplia sua base de clientes.
+
+Pontos Fracos:
+Falta de Personalização: A plataforma atual não oferece recursos de personalização ou recomendações de filmes com base nas preferências dos usuários, o que pode limitar a experiência do cliente.
+
+Processo de Compra Complexo: Alguns usuários relatam que o processo de compra de ingressos pode ser complicado, especialmente em relação à seleção de assentos e métodos de pagamento.
+
+Concorrência Acirrada: A empresa enfrenta forte concorrência de outras plataformas de compra de ingressos online, algumas das quais oferecem recursos mais avançados e uma experiência de usuário melhorada.
+
+* Análise futura da empresa Cine Br:
+
+Análise Futura da Empresa Cine Br
+Oportunidades de Melhoria:
+Personalização e Recomendações: Implementar recursos de personalização e recomendações de filmes com base no histórico de compras e preferências dos usuários para melhorar a experiência do cliente e aumentar a fidelidade.
+
+Simplificação do Processo de Compra: Aprimorar o processo de compra de ingressos, tornando-o mais simples e intuitivo, com opções claras de seleção de assentos, métodos de pagamento e emissão de ingressos digitais.
+
+Integração com Redes Sociais: Integrar a plataforma com redes sociais para permitir que os usuários compartilhem suas experiências cinematográficas, promovendo assim a marca e expandindo o alcance da empresa.
+
+Investimentos Necessários:
+Desenvolvimento de Novos Recursos: Será necessário investir em desenvolvimento de software para implementar novos recursos, como personalização, recomendações e integração com redes sociais.
+
+Treinamento de Funcionários: Os funcionários precisarão ser treinados para lidar com as novas funcionalidades da plataforma e garantir um suporte eficaz ao cliente.
+
+Campanhas de Marketing: Investir em campanhas de marketing para promover as novas melhorias e atrair novos usuários para a plataforma.
+
+Potenciais Desafios:
+Adoção pelo Usuário: Garantir que os usuários adotem as novas funcionalidades pode ser um desafio, especialmente se houver resistência à mudança ou se as melhorias não atenderem às expectativas dos clientes.
+
+Concorrência Crescente: Continuar a enfrentar a concorrência de outras plataformas de compra de ingressos online exigirá esforços contínuos para inovar e melhorar a experiência do usuário.
+
+Gestão de Dados e Segurança: Com a implementação de novos recursos de personalização e integração com redes sociais, será fundamental garantir a segurança dos dados dos usuários e cumprir as regulamentações de privacidade.
+
+Esta análise atual e futura da empresa Cine Br oferece uma visão abrangente dos pontos fortes, pontos fracos, oportunidades, investimentos necessários e potenciais desafios associados à evolução da plataforma de compra de ingressos online.
 
 ### Processo 1 – Verificar minhas reservas 
 
