@@ -15,7 +15,7 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
 ## Modelo ER
 
-![Modelo ER](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-cine-br/assets/129304075/39fed8d8-2181-4e29-9218-a182c9ae76af)
+![Modelo ER](img/nv.png)
 
 
 ## Esquema Relacional
