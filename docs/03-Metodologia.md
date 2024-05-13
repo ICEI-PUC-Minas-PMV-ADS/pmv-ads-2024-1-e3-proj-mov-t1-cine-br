@@ -59,7 +59,7 @@ Além do Scrum, o projeto também incorpora princípios do Microsoft Solutions F
 
 - Orgulho no trabalho individual: À medida que os membros da equipe adquirem novas habilidades e superam desafios, eles se sentem realizados e motivados a continuar contribuindo de maneira significativa para o projeto.
 
-A equipe está organizada da seguinte forma: [descreva a organização da equipe, se necessário, com detalhes sobre funções e responsabilidades:
+A equipe está organizada da seguinte forma: 
 
 ### Scrum Master: 
 
@@ -82,21 +82,17 @@ A equipe está organizada da seguinte forma: [descreva a organização da equipe
 
 ### Processo
 
-Para organizar e distribuir as tarefas do projeto, a equipe utiliza a plataforma GitHub, que oferece diversas funcionalidades para aumentar a eficiência do grupo, como a criação de listas, cartões, etiquetas e botões personalizados com ações automáticas.
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o GitHub Projects. As etapas são classificadas em:
 
-O ambiente de trabalho no Github Planejamento está estruturado da seguinte maneira:
-
-A fazer: Aqui são listadas todas as tarefas que precisam ser executadas na etapa atual do projeto. Cada tarefa possui uma descrição com dicas sobre como realizá-la, ideias para adicionar conteúdo, data limite e etiquetas indicando sua prioridade.
-
-Em desenvolvimento: Nesta lista são exibidas as tarefas que estão atualmente em andamento. Cada tarefa inclui o nome do membro responsável e a data em que foi atribuída a ele. Uma tarefa pode ter um ou mais membros trabalhando nela simultaneamente.
-
-Concluído: Esta lista registra as tarefas que foram concluídas, servindo como um histórico do progresso do projeto. Cada tarefa concluída inclui a data de conclusão e quem a revisou.
-
-O ambiente de trabalho desenvolvido no GitHub pode ser acessado através da [https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/768/views/1) e está apresentado no estado atual na figura a seguir: [inserir a descrição ou imagem da figura a seguir:
+Backlog do Produto: Todos os artefatos que serão necessários para o desenvolvimento completo do projeto.
+A Fazer: Todos os artefatos referentes à etapa atual do desenvolvimento do projeto.
+Em Desenvolvimento: Todos os artefatos que estão sendo desenvolvidos no momento.
+Em Revisão: Todos os artefatos que já foram desenvolvimentos mas estão em processo de testes.
+Finalizado: Todos os artefatos que foram testados, aprovados e implementados no projeto.
 
 
-
-IMAGEM
+![](img/Captura de ecrã 2024-05-13, às 21.21.04.png)
+_Quadro Kanban - GitHub Projects_
 
 
 
@@ -104,12 +100,13 @@ IMAGEM
 
 As ferramentas empregadas no projeto são:
 
-- Canva.
-- Figma.
-- GitHub.
-- Git.
-- Microsoft Teams.
-- Visual Studio Code.
-- Expo
+Editor de código: Visual Studio Code e EXPO
+Ferramentas de comunicação: WhatsApp, Discord, Teams
+Ferramentas de desenho de tela (wireframing): Figma
+Ferramenta de desenho de diagramas e fluxogramas: Canva, Lucidchart e Diagrams.net
+SGBD: SQLite
+O editor de código foi escolhido porque ele possui uma integração com o sistema de versão, além de se mostrar versátil.
 
-O Expo foi escolhido porque ele possui uma integração com o GitHub muito fácil de se utilizar. 
+As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas.
+
+Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
