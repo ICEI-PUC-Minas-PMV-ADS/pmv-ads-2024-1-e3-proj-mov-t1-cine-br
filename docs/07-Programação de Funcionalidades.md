@@ -52,6 +52,10 @@ Até o momento, no desenvolvimento dessa página, apenas alterei um pouco do est
 
 ![Print Geovanne e Bia - Assentos](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-cine-br/assets/129304075/b2869236-ad08-4c22-b250-7b2816f22690)
 
+# Tela Filme (Bia Santana)
+
+![Print Bia - Filme](img/TelaFilmeCod.png)
+
 
 
 
