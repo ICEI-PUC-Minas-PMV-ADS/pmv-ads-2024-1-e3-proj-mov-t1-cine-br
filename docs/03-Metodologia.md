@@ -91,7 +91,7 @@ Em Revisão: Todos os artefatos que já foram desenvolvimentos mas estão em pro
 Finalizado: Todos os artefatos que foram testados, aprovados e implementados no projeto.
 
 
-![](img/Captura de ecrã 2024-05-13, às 21.21.04.png)
+![](img/ds.png)
 _Quadro Kanban - GitHub Projects_
 
 
