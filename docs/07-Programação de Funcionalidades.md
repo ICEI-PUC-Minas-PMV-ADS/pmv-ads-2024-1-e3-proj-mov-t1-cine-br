@@ -56,6 +56,12 @@ Até o momento, no desenvolvimento dessa página, apenas alterei um pouco do est
 
 ![Print Bia - Filme](img/TelaFilmeCod.png)
 
+# Tela Filme (Peterson)
+
+A tela mostra os filmes disponíveis no cinema selecionado.
+
+![Print Peterson](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-cine-br/blob/main/docs/img/telaDeFilmes.png)
+
 
 
 
