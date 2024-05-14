@@ -1,7 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { View, Text, Button, TouchableOpacity, StyleSheet, ScrollView, Picker } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-
 
 
 const ingressos = [

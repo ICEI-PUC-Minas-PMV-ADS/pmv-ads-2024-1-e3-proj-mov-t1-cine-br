@@ -74,8 +74,8 @@ const styles = StyleSheet.create({
         backgroundColor: '#20B2AA',
     },
     logo: {
-        width: 300,
-        height: 300,
+        width: 200,
+        height: 200,
         marginBottom: 20,
     },
     title: {
@@ -116,7 +116,7 @@ const styles = StyleSheet.create({
         marginBottom: 20,
     },
     text: {
-        fontSize: 18,
+        fontSize: 10,
         fontWeight: 'bold',
         color: 'white',
         textAlign: 'center',
