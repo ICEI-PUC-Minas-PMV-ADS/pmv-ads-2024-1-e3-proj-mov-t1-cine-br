@@ -13,18 +13,21 @@ const CinemasSaoPaulo = () => {
       sinopse: 'Uma equipe da Força Delta é emboscada em território inimigo. Sem querer abandoná-los, a única esperança de um oficial é um piloto de drone da Força Aérea que pode ser seus olhos durante uma batalha brutal de 48 horas.',
       imagem: 'https://m.media-amazon.com/images/M/MV5BZmZhYjk1ZWYtYTExMy00OTM4LWIyMzEtZWZhYmJlYTdjNGZjXkEyXkFqcGdeQXVyMTY4MjE1MDA@._V1_.jpg',
       id: 1,
+      classificacao: '16',
     },
     {
       nome: 'Animais Fantásticos: Os Segredos de Dumbledore',
       sinopse: 'O professor Albus Dumbledore sabe que o poderoso bruxo das trevas Gellert Grindelwald está se movendo para assumir o controle do mundo bruxo. Incapaz de detê-lo sozinho, ele confia a Newt Scamander um plano contra o inimigo.',
       imagem: 'https://m.media-amazon.com/images/S/pv-target-images/94d299d381ded85afac95ba386ef5557b6e737800be59f5337b017af05df339d.jpg',
       id: 2,
+      classificacao: '12',
     },
     {
       nome: 'Beekeeper: Rede de Vingança',
       sinopse: 'As ações brutais de vingança de um homem assume riscos de proporções nacionais quando é revelado que ele é um ex-agente de uma organização poderosa e clandestina.',
       imagem: 'https://one-cinema.s3.sa-east-1.amazonaws.com/filmes/the-beekeeper/18112023/342/capa-the-beekeeper.jpg',
       id: 3,
+      classificacao: '18',
     },
   ];
 
@@ -66,10 +69,10 @@ const CinemasSaoPaulo = () => {
           <View style={styles.modalView}>
             <Text style={styles.modalText}>{selectedFilme?.nome}</Text>
             <Image source={{ uri: selectedFilme?.imagem }} style={styles.modalImage} />
-            <Text>{selectedFilme?.sinopse}</Text>
-            <Text style={styles.moreInfo}> 
-              'Mais informações"
-            </Text>
+            <Text style={styles.moreInfo}>{selectedFilme?.sinopse}</Text>
+            <Text style={styles.moreInfo}>Classificação Indicativa: {selectedFilme?.classificacao} anos</Text>
+            <Text style={styles.moreInfo}> Inteira: R$40,00 </Text>
+            <Text style={styles.moreInfo}>Meia: R$20,00</Text>
             <View style={styles.buttonContainer}>
               <View style={styles.customButton}>
                 <Button title="Reservar Ingresso" flex-direction='row' color='#4DCEC1' margin='10' onPress={handleCompraPress} />
