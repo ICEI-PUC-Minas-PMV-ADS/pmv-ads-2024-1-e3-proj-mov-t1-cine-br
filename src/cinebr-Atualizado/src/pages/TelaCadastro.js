@@ -1,21 +1,45 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, Image, Alert } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
+import { createUser } from './api'; // Importa a função createUser corretamente
 
 const CadastroPage = () => {
-
-    const [nome, setNome] = React.useState('');
-    const [email, setEmail] = React.useState('');
-    const [senha, setSenha] = React.useState('');
-
+    const [nome, setNome] = useState('');
+    const [email, setEmail] = useState('');
+    const [senha, setSenha] = useState('');
     const navigation = useNavigation();
 
-    const handleCadastro = () => {
-        // ---- Lógica ----
+    const handleCadastro = async () => {
+        try {
+            const regexSenha = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d@$!%*#?&]{6,}$/;
+            if (!regexSenha.test(senha)) {
+                Alert.alert('Erro', 'A senha deve conter pelo menos 6 caracteres e um caracter especial.');
+                return;
+            }
 
-        Alert.alert('Cadastro realizado com sucesso.', "clique em OK para continuar", [
-            { text: "OK", onPress: () => navigation.navigate('Home') }
-        ]);
+            // Verifica se o email está vazio ou não contém '@'
+            if (!email || !email.includes('@')) {
+                Alert.alert('Erro', 'Informe um email válido.');
+                return;
+            }
+
+            // Verifica se o nome está vazio ou não contém um espaço
+            if (!nome || !nome.includes(' ')) {
+                Alert.alert('Erro', 'Informe o nome completo.');
+                return;
+            }
+
+            const response = await createUser(nome, email, senha);
+
+            if (response) {
+                Alert.alert('Cadastro realizado com sucesso.', "Clique em OK para continuar", [
+                    { text: "OK", onPress: () => navigation.navigate('Home') }
+                ]);
+            }
+        } catch (error) {
+            console.error(error);
+            Alert.alert('Erro', 'Não foi possível realizar o cadastro.');
+        }
     };
 
     const handleSignIn = () => {
@@ -121,7 +145,6 @@ const styles = StyleSheet.create({
         color: 'white',
         textAlign: 'center',
     },
-
 });
 
 export default CadastroPage;

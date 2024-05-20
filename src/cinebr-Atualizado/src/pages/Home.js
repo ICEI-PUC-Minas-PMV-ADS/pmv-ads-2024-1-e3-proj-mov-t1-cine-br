@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, Image, FlatList, Modal, SafeAreaView } from 'react-native';
-import Header from '../Componentes/Header';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import MyComponent from '../Componentes/Header'; // Atualize o caminho conforme necessário
 
 class Home extends Component {
   constructor(props) {
@@ -9,7 +10,13 @@ class Home extends Component {
       selectedCidade: '',
       cidades: ['São Paulo', 'Belo Horizonte', 'Rio de Janeiro'],
       showCidadesModal: false,
+      userName: '', // Adicionado para armazenar o nome do usuário
     };
+  }
+
+  async componentDidMount() {
+    const userName = await AsyncStorage.getItem('userName');
+    this.setState({ userName });
   }
 
   handleCidadePress = (cidade) => {
@@ -41,11 +48,11 @@ class Home extends Component {
   };
 
   render() {
-    const { selectedCidade, cidades, showCidadesModal } = this.state;
+    const { selectedCidade, cidades, showCidadesModal, userName } = this.state;
 
     return (
       <SafeAreaView style={styles.safeArea}>
-        <Header title="Home" />
+        <MyComponent />
         <View style={styles.container}>
           <Image
             source={require('./imagem/Logo.png')}
@@ -142,3 +149,4 @@ const styles = StyleSheet.create({
 });
 
 export default Home;
+
