@@ -14,17 +14,42 @@ Implementação do sistema descritas por meio dos requisitos funcionais e/ou nã
 ![Home Mayra](img/May2.png)
 
 
-Ao implementar essa pagina necessitei estudar os microfundamento da quinta etapa, a principio não encontrei dificuldades a fazer essa parte, foi criado botoes mas de momento não carrega nenhum link, tambem há um cabeçario com menus mas de momento não estão funcionando.
-Na 3 etapa implementei complementos para a tela Home e tambem fiz a parte de navegaçao, foi um pouco mais complexa que a etapa anterior mas tudo saiu de forma correta. 
-
-![Login Mayra](img/login1.png)
-![Login Mayra](img/login2.png)
-![Login Mayra](img/login3.png)
-Implementaçao do login e fake api. Tive dificuldades ao fazer essa tarefa pois nao achei que o microfundamento abordou isso de uma maneira clara. 
 * [Transições de telas ](https://www.youtube.com/watch?v=s1EU2fECQ1Y)
 
 
 Nesse video acima mostra como esta as transiçoes entre as telas.
+
+
+
+Ao implementar essa pagina necessitei estudar os microfundamento da quinta etapa, a principio não encontrei dificuldades a fazer essa parte, foi criado botoes mas de momento não carrega nenhum link, tambem há um cabeçario com menus mas de momento não estão funcionando.
+Na 3 etapa implementei complementos para a tela Home e tambem fiz a parte de navegaçao, foi um pouco mais complexa que a etapa anterior mas tudo saiu de forma correta. 
+
+
+
+Implementação do Login e Fake API
+1. Login:
+Desenvolvimento da Página de Login: Eu criei uma página onde os usuários podem inserir suas credenciais, como e-mail e senha, para fazer login.
+
+Autenticação: Após receber as credenciais do usuário, validei-as com os dados armazenados. Se forem válidas, concedi acesso; caso contrário, exibi uma mensagem de erro.
+
+Gerenciamento de Sessão: Implementei um sistema para manter uma sessão ativa após o login, garantindo que o usuário permaneça identificado em outras partes do aplicativo.
+
+2. Fake API:
+Criação dos Dados Fictícios: Desenvolvi um conjunto de dados fictícios que representam os recursos acessados pela API. Isso foi feito em arquivos JSON, conforme orientação do professor Will.
+
+Definição dos Endpoints da API: Estabeleci endpoints para a API que retornam os dados fictícios conforme necessário. Incluí endpoints para autenticação e obtenção de dados.
+
+Simulação de Requisições: Em vez de fazer requisições HTTP para um servidor remoto, simulei as respostas da API localmente. Acessei os dados fictícios armazenados e os retornei como resposta às solicitações.
+
+Comentário:
+Encontrei dificuldades ao realizar essa tarefa, pois não achei que o microfundamento abordou esses conceitos de maneira clara. No entanto, segui as orientações do professor Will e busquei apoio adicional, criando um acesso no Render para compartilhar com o grupo e utilizando o Git para gerenciar um repositório contendo os arquivos JSON. Espero que essa abordagem ajude a esclarecer o processo para todos os envolvidos e a melhorar a colaboração no projeto.
+
+![Login Mayra](img/fakeapi.png)
+![Login Mayra](img/fakeapi1.png)
+![Login Mayra](img/fakeapi2.png)
+![Login Mayra](img/fakeapi3.png)
+![Login Mayra](img/fakeapi4.png)
+
 
 
 
