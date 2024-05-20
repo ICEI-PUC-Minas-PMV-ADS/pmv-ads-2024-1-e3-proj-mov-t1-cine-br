@@ -45,10 +45,10 @@ Comentário:
 Encontrei dificuldades ao realizar essa tarefa, pois não achei que o microfundamento abordou esses conceitos de maneira clara. No entanto, segui as orientações do professor Will e busquei apoio adicional, criando um acesso no Render para compartilhar com o grupo e utilizando o Git para gerenciar um repositório contendo os arquivos JSON. Espero que essa abordagem ajude a esclarecer o processo para todos os envolvidos e a melhorar a colaboração no projeto.
 
 ![Login Mayra](img/fakeapi.png)
-![Login Mayra](img/fakeapi1.png)
+![Login Mayra](img/fakeapi4.png)
 ![Login Mayra](img/fakeapi2.png)
 ![Login Mayra](img/fakeapi3.png)
-![Login Mayra](img/fakeapi4.png)
+![Login Mayra](img/fakeapi1.png)
 
 
 
