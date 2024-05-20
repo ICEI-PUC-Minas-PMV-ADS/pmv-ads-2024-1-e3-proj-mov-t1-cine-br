@@ -13,18 +13,21 @@ const CinemasRioDeJaneiro = () => {
       sinopse: 'Uma equipe da Força Delta é emboscada em território inimigo. Sem querer abandoná-los, a única esperança de um oficial é um piloto de drone da Força Aérea que pode ser seus olhos durante uma batalha brutal de 48 horas.',
       imagem: 'https://m.media-amazon.com/images/M/MV5BZmZhYjk1ZWYtYTExMy00OTM4LWIyMzEtZWZhYmJlYTdjNGZjXkEyXkFqcGdeQXVyMTY4MjE1MDA@._V1_.jpg',
       id: 1,
+      classificacao: '16',
     },
     {
       nome: 'Godzilla e Kong: O Novo Império',
       sinopse: 'Godzilla e o todo-poderoso Kong enfrentam uma ameaça colossal escondida nas profundezas do planeta, desafiando a sua própria existência e a sobrevivência da raça humana',
       imagem: 'https://cinemax.pt/wp-content/uploads/2024/01/godzila.jpg',
       id: 2,
+      classificacao: '12',
     },
     {
       nome: 'Duna 2',
       sinopse: 'Paul Atreides se une a Chani e aos Fremen enquanto busca vingança contra os conspiradores que destruíram sua família. Enfrentando uma escolha entre o amor de sua vida e o destino do universo, ele deve evitar um futuro terrível que só ele pode prever.',
       imagem: 'https://pbs.twimg.com/media/GEnxkFTWIAABP8T.jpg:large',
       id: 3,
+      classificacao: '14',
     },
   ];
 
@@ -66,10 +69,10 @@ const CinemasRioDeJaneiro = () => {
           <View style={styles.modalView}>
             <Text style={styles.modalText}>{selectedFilme?.nome}</Text>
             <Image source={{ uri: selectedFilme?.imagem }} style={styles.modalImage} />
-            <Text>{selectedFilme?.sinopse}</Text>
-            <Text style={styles.moreInfo}> 
-              'Mais informações"
-            </Text>
+            <Text style={styles.moreInfo}>{selectedFilme?.sinopse}</Text>
+            <Text style={styles.moreInfo}>Classificação Indicativa: {selectedFilme?.classificacao} anos</Text>
+            <Text style={styles.moreInfo}> Inteira: R$40,00 </Text>
+            <Text style={styles.moreInfo}>Meia: R$20,00</Text>
             <View style={styles.buttonContainer}>
               <View style={styles.customButton}>
                 <Button title="Reservar Ingresso" flex-direction='row' color='#4DCEC1' margin='10' onPress={handleCompraPress} />
