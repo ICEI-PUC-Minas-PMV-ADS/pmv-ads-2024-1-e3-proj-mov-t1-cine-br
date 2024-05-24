@@ -1,7 +1,6 @@
 import React from 'react';
 import { ScrollView, View, Text, TouchableOpacity, Image, StyleSheet } from 'react-native';
 
-
 const cinemasRio = [
   {
     id: 1,
@@ -27,9 +26,8 @@ const cinemasRio = [
 ];
 
 const CineRio = ({ navigation }) => {
-
   return (
-     <ScrollView style={styles.container}>
+    <ScrollView style={styles.container}>
       {cinemasRio.map(cinema => (
         <View key={cinema.id} style={styles.cinemaContainer}>
           <TouchableOpacity onPress={() => navigation.navigate(cinema.url, { cinemaId: cinema.id })}>
@@ -43,13 +41,11 @@ const CineRio = ({ navigation }) => {
   );
 };
 
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 10,
     backgroundColor: '#4DCEC1'
-    
   },
   cinemaContainer: {
     marginBottom: 20,

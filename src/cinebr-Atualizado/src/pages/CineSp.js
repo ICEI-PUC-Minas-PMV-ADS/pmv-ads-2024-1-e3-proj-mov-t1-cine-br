@@ -1,25 +1,24 @@
 import React from 'react';
 import { ScrollView, View, Text, TouchableOpacity, Image, StyleSheet } from 'react-native';
 
-
 const cinemasSp = [
   {
     id: 1,
-    logo:  require('./imagem/cinemabrasileira-sp.jpg'),
+    logo: require('./imagem/cinemabrasileira-sp.jpg'),
     nome: 'Cinemateca Brasileira',
     endereco: 'Largo Sen. Raul Cardoso, 207 - Vila Clementino, São Paulo, SP',
     url: 'CinemasSaoPaulo'
   },
   {
     id: 2,
-    logo:  require('./imagem/cinepolis-sp.jpg'),
+    logo: require('./imagem/cinepolis-sp.jpg'),
     nome: 'Cinépolis',
     endereco: 'Av. Nove de Julho - Jardim Paulista, São Paulo - SP',
     url: 'CinemasSaoPaulo'
   },
   {
     id: 3,
-    logo:  require('./imagem/cinesala-sp.jpg'),
+    logo: require('./imagem/cinesala-sp.jpg'),
     nome: 'Cinesala',
     endereco: 'R. Fradique Coutinho, 361 - Pinheiros, São Paulo - SP',
     url: 'CinemasSaoPaulo'
@@ -27,9 +26,8 @@ const cinemasSp = [
 ];
 
 const CineSp = ({ navigation }) => {
-
   return (
-     <ScrollView style={styles.container}>
+    <ScrollView style={styles.container}>
       {cinemasSp.map(cinema => (
         <View key={cinema.id} style={styles.cinemaContainer}>
           <TouchableOpacity onPress={() => navigation.navigate(cinema.url, { cinemaId: cinema.id })}>
