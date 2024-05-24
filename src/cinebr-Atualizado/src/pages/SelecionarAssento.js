@@ -1,212 +1,216 @@
 import React, { useState } from 'react';
-import { View, Text, Button, TouchableOpacity, StyleSheet, ScrollView, Picker } from 'react-native';
+import { StyleSheet, TouchableWithoutFeedback, Text, View } from 'react-native';
+import { Picker } from '@react-native-picker/picker';
 import { useNavigation } from '@react-navigation/native';
 
-
-const ingressos = [
-  { tipo: 'Inteira', codigo: '001', valor: 40.0 },
-  { tipo: 'Meia', codigo: '002', valor: 20.0 },
-];
-
-const assentosInicial = [
-  {
-    fileira: 'A',
-    cadeira: '01',
-    reservado: false,
-    tipo: '',
-    selecionado: false,
-  },
-  {
-    fileira: 'A',
-    cadeira: '02',
-    reservado: false,
-    tipo: '',
-    selecionado: false,
-  },
-  {
-    fileira: 'A',
-    cadeira: '03',
-    reservado: false,
-    tipo: '',
-    selecionado: false,
-  },
-  {
-    fileira: 'A',
-    cadeira: '04',
-    reservado: false,
-    tipo: '',
-    selecionado: false,
-  },
-  {
-    fileira: 'A',
-    cadeira: '05',
-    reservado: true,
-    tipo: 'Inteira',
-    selecionado: false,
-  }, // Bloqueado, não conta no total
-  {
-    fileira: 'B',
-    cadeira: '01',
-    reservado: false,
-    tipo: '',
-    selecionado: false,
-  },
-  {
-    fileira: 'B',
-    cadeira: '02',
-    reservado: false,
-    tipo: '',
-    selecionado: false,
-  },
-  {
-    fileira: 'B',
-    cadeira: '03',
-    reservado: true,
-    tipo: 'Meia',
-    selecionado: false,
-  }, // Bloqueado, não conta no total
-  {
-    fileira: 'B',
-    cadeira: '04',
-    reservado: false,
-    tipo: '',
-    selecionado: false,
-  },
-  {
-    fileira: 'B',
-    cadeira: '05',
-    reservado: false,
-    tipo: '',
-    selecionado: false,
-  },
-];
-
 const SelecionarAssento = () => {
-  const [assentos, setAssentos] = useState(assentosInicial);
-  const [tipoIngresso, setTipoIngresso] = useState('Inteira');
+  const [count, setCount] = useState(0);
+  const [products, setProducts] = useState(new Set());
+  const [selectedSeats, setSelectedSeats] = useState(new Set());
+  const [reservedSeats, setReservedSeats] = useState(new Set());
+  const [ticketType, setTicketType] = useState('Inteiro');
+  const [seatPrices, setSeatPrices] = useState({});
+  const navigation = useNavigation();
 
-  const toggleSeat = (index) => {
-    let newSeats = [...assentos];
-    if (
-      newSeats[index].fileira + newSeats[index].cadeira === 'A05' ||
-      newSeats[index].fileira + newSeats[index].cadeira === 'B03'
-    ) {
-      return; // Não permite alterar os assentos A05 ou B03
-    }
-    if (!newSeats[index].reservado) {
-      newSeats[index].reservado = true;
-      newSeats[index].tipo = tipoIngresso;
-      newSeats[index].selecionado = true;
-    } else {
-      newSeats[index].reservado = false;
-      newSeats[index].tipo = '';
-      newSeats[index].selecionado = false;
-    }
-    setAssentos(newSeats);
+  const ticketPrices = {
+    Meia: 10,
+    Inteiro: 20,
   };
 
-  const totalItens = assentos.filter(
-    (seat) =>
-      seat.reservado &&
-      !(
-        seat.fileira + seat.cadeira === 'A05' ||
-        seat.fileira + seat.cadeira === 'B03'
-      )
-  ).length;
-  const valorTotal = assentos.reduce((acc, seat) => {
-    if (
-      seat.reservado &&
-      !(
-        seat.fileira + seat.cadeira === 'A05' ||
-        seat.fileira + seat.cadeira === 'B03'
-      )
-    ) {
-      return acc + ingressos.find((ing) => ing.tipo === seat.tipo).valor;
+  const onPress = (rowLabel, seat) => {
+    const seatLabel = `${rowLabel}${seat}`;
+    if (!selectedSeats.has(seatLabel) && !reservedSeats.has(seatLabel)) {
+      setCount(count + 1);
+      setProducts(new Set(products.add(seatLabel)));
+      setSelectedSeats(new Set(selectedSeats.add(seatLabel)));
+      setSeatPrices(prevSeatPrices => ({
+        ...prevSeatPrices,
+        [seatLabel]: ticketPrices[ticketType],
+      }));
     }
-    return acc;
-  }, 0);
+  };
+
+  const onClear = () => {
+    setCount(0);
+    setProducts(new Set());
+    setSelectedSeats(new Set());
+    setReservedSeats(new Set());
+    setSeatPrices({});
+  };
+
+  const onConfirm = () => {
+    setReservedSeats(new Set([...reservedSeats, ...selectedSeats]));
+    setSelectedSeats(new Set());
+    navigation.navigate('TelaCadastro');
+  };
+
+  const selectedProducts = Array.from(products).join(', ');
+  const totalValue = Array.from(products).reduce((total, seat) => total + seatPrices[seat], 0);
+
+  const renderSeats = () => {
+    const seats = [];
+    const rows = [
+      { label: 'A', seats: [1, 2, 3, 4, 5] },
+      { label: 'B', seats: [6, 7, 8, 9, 10, 11, 12, 13, 14] },
+      { label: 'C', seats: [15, 16, 17, 18, 19, 20, 21, 22, 23] },
+      { label: 'D', seats: [24, 25, 26, 27, 28, 29, 30] },
+      { label: 'E', seats: [31, 32, 33, 34, 35, 36, 37] },
+      { label: 'F', seats: [38, 39, 40, 41, 42, 43, 44] },
+      { label: 'G', seats: [45, 46, 47, 48, 49, 50, 51, 52, 53] },
+      { label: 'H', seats: [54, 55, 56, 57, 58, 59, 60, 61, 62] },
+      { label: 'I', seats: [63, 64, 65, 66, 67] },
+    ];
+
+    rows.forEach(row => {
+      seats.push(
+        <View key={row.label} style={styles.rowContainer}>
+          <Text style={styles.rowLabel}>{row.label}</Text>
+          {row.seats.map(seat => {
+            const seatLabel = `${row.label}${seat}`;
+            return (
+              <TouchableWithoutFeedback key={seat} onPress={() => onPress(row.label, seat)}>
+                <View style={[
+                  styles.button,
+                  selectedSeats.has(seatLabel) && styles.selectedButton,
+                  reservedSeats.has(seatLabel) && styles.reservedButton,
+                ]}>
+                  <Text style={styles.buttonText}>{seat}</Text>
+                </View>
+              </TouchableWithoutFeedback>
+            );
+          })}
+        </View>
+      );
+    });
+
+    return seats;
+  };
 
   return (
-    <ScrollView style={styles.container}>
-      <Picker
-        selectedValue={tipoIngresso}
-        style={styles.picker}
-        onValueChange={(itemValue) => setTipoIngresso(itemValue)}>
-        {ingressos.map((ing) => (
-          <Picker.Item key={ing.codigo} label={ing.tipo} value={ing.tipo} />
-        ))}
-      </Picker>
-      <View style={styles.seatsContainer}>
-        {assentos.map((seat, index) => (
-          <TouchableOpacity
-            key={seat.fileira + seat.cadeira}
-            style={[
-              styles.seat,
-              seat.reservado
-                ? seat.selecionado
-                  ? styles.selectedSeat
-                  : styles.reservedSeat
-                : styles.availableSeat,
-            ]}
-            onPress={() => toggleSeat(index)}
-            disabled={
-              seat.fileira + seat.cadeira === 'A05' ||
-              seat.fileira + seat.cadeira === 'B03'
-            }>
-            <Text>{seat.fileira + seat.cadeira}</Text>
-          </TouchableOpacity>
-        ))}
+    <View style={styles.container}>
+      <Text style={styles.title}>Escolha o tipo de ingresso:</Text>
+      <View style={styles.pickerContainer}>
+        <Picker
+          selectedValue={ticketType}
+          style={styles.picker}
+          onValueChange={(itemValue, itemIndex) => setTicketType(itemValue)}
+        >
+          <Picker.Item label="Meia" value="Meia" />
+          <Picker.Item label="Inteiro" value="Inteiro" />
+        </Picker>
       </View>
-      <View style={styles.totais}>
-        <Text>
-          Assentos selecionados:{' '}
-          {assentos
-            .filter((seat) => seat.selecionado)
-            .map((seat) => seat.fileira + seat.cadeira)
-            .join(', ')}
-        </Text>
-        <Text>{totalItens} ingressos</Text>
-        <Text>Total: R$ {valorTotal.toFixed(2)}</Text>
+      <View style={styles.seatContainer}>
+        {renderSeats()}
       </View>
-    </ScrollView>
+      <View style={styles.buttonActionContainer}>
+        <TouchableWithoutFeedback onPress={onConfirm}>
+          <View style={styles.confirmButton}>
+            <Text>Confirmar</Text>
+          </View>
+        </TouchableWithoutFeedback>
+        <TouchableWithoutFeedback onPress={onClear}>
+          <View style={styles.clearButton}>
+            <Text>Cancelar</Text>
+          </View>
+        </TouchableWithoutFeedback>
+      </View>
+      <View style={styles.infoContainer}>
+        <Text style={styles.infoText}>Produtos selecionados: {selectedProducts}</Text>
+        <Text style={styles.infoText}>Quantidade: {count} itens</Text>
+        <Text style={styles.infoText}>Valor: R$ {totalValue},00</Text>
+      </View>
+    </View>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 20,
-  },
-  seatsContainer: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    justifyContent: 'center',
-    marginBottom: 20,
-  },
-  seat: {
-    width: 50,
-    height: 50,
     justifyContent: 'center',
     alignItems: 'center',
-    margin: 5,
-    borderWidth: 1,
-    borderColor: 'gray',
+    paddingHorizontal: 10,
+    backgroundColor: '#4DCEC1',
   },
-  reservedSeat: {
-    backgroundColor: 'yellow', // Assentos reservados são amarelos
+  title: {
+    fontSize: 18,
+    marginBottom: 10,
+    fontWeight: 'bold',
   },
-  selectedSeat: {
-    backgroundColor: 'red', // Assentos selecionados são vermelhos
-  },
-  availableSeat: {
-    backgroundColor: 'green', // Assentos disponíveis são verdes
-  },
-  totais: {
-    marginTop: 20,
+  pickerContainer: {
+    marginBottom: 20,
   },
   picker: {
     height: 50,
     width: 150,
+  },
+  seatContainer: {
+    borderWidth: 1,
+    borderColor: '#000000',
+    padding: 10,
+    marginBottom: 20,
+    alignItems: 'center',
+    backgroundColor: '#F0F0F0',
+  },
+  rowContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginVertical: 5,
+  },
+  rowLabel: {
+    marginRight: 10,
+    fontSize: 16,
+    fontWeight: 'bold',
+  },
+  button: {
+    alignItems: 'center',
+    backgroundColor: '#90EE90',
+    padding: 10,
+    margin: 5,
+    width: 10,
+    height: 10,
+    justifyContent: 'center',
+  },
+  selectedButton: {
+    backgroundColor: '#F1696B',
+  },
+  reservedButton: {
+    backgroundColor: '#FFD700',
+  },
+  buttonText: {
+    color: '#000',
+  },
+  buttonActionContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 20,
+  },
+  confirmButton: {
+    alignItems: 'center',
+    backgroundColor: '#ADD8E6',
+    padding: 10,
+    width: 100,
+    height: 30,
+    justifyContent: 'center',
+    marginRight: 10,
+  },
+  clearButton: {
+    alignItems: 'center',
+    backgroundColor: '#DDDDDD',
+    padding: 10,
+    width: 100,
+    height: 30,
+    justifyContent: 'center',
+    marginLeft: 10,
+  },
+  infoContainer: {
+    alignItems: 'flex-start',
+    padding: 10,
+    width: '80%',
+  },
+  infoText: {
+    color: '#000000',
+    fontSize: 16,
+    marginVertical: 5,
   },
 });
 
