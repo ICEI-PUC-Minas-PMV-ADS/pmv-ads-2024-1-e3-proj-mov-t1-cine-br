@@ -96,6 +96,9 @@ A tela mostra os filmes disponíveis no cinema selecionado.
 
 ![Print Peterson](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-cine-br/blob/main/docs/img/telaDeFilmes.png)
 
+# Atualização Tela FIlme(Peterson)
+![Imagem 11 Tela Home](img/tela-filme-atualizada.png)
+
 
 
 
