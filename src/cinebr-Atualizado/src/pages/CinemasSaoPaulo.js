@@ -2,13 +2,16 @@ import React, { useState } from 'react';
 import { View, Text, StyleSheet, Image, ScrollView, TouchableOpacity, Modal, Button } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
-const CinemasSaoPaulo = () => {
+
+const CinemasBeloHorizonte = () => {
   const [modalVisible, setModalVisible] = useState(false);
   const [selectedFilme, setSelectedFilme] = useState(null);
   const navigation = useNavigation();
 
- const filmes = [
-    {
+
+
+  const filmes = [
+   {
       nome: 'Zona de Risco',
       sinopse: 'Uma equipe da Força Delta é emboscada em território inimigo. Sem querer abandoná-los, a única esperança de um oficial é um piloto de drone da Força Aérea que pode ser seus olhos durante uma batalha brutal de 48 horas.',
       imagem: 'https://m.media-amazon.com/images/M/MV5BZmZhYjk1ZWYtYTExMy00OTM4LWIyMzEtZWZhYmJlYTdjNGZjXkEyXkFqcGdeQXVyMTY4MjE1MDA@._V1_.jpg',
@@ -42,18 +45,21 @@ const CinemasSaoPaulo = () => {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       {filmes.map((filme, index) => (
-      <View key={index} style={styles.filmeContainer}>
-  <TouchableOpacity onPress={() => handleFilmePress(filme)}>
-    <View style={styles.cartazContainer}>
-      <Image source={{ uri: filme.imagem }} style={styles.imagem} />
-    </View>
-    <Text style={styles.titulo}>{filme.nome}</Text>
-    <Text>{filme.sinopse}</Text>
-    <TouchableOpacity onPress={() => handleFilmePress(filme)}>
-      <Text style={styles.verDetalhes}>Ver Detalhes</Text>
-    </TouchableOpacity>
-  </TouchableOpacity>
-</View>
+        <View key={index}>
+          <View style={styles.filmeContainer}>
+            <TouchableOpacity onPress={() => handleFilmePress(filme)}>
+              <View style={styles.cartazContainer}>
+                <Image source={{ uri: filme.imagem }} style={styles.imagem} />
+              </View>
+              <Text style={styles.titulo}>{filme.nome}</Text>
+              <Text>{filme.sinopse}</Text>
+              <TouchableOpacity style={styles.verDetalhesButton} onPress={() => handleFilmePress(filme)}>
+                <Text style={styles.verDetalhes}>Ver Detalhes</Text>
+              </TouchableOpacity>
+            </TouchableOpacity>
+          </View>
+          {index < filmes.length - 1 && <View style={styles.divider} />}
+        </View>
       ))}
 
       <Modal
@@ -68,11 +74,11 @@ const CinemasSaoPaulo = () => {
             <Image source={{ uri: selectedFilme?.imagem }} style={styles.modalImage} />
             <Text>{selectedFilme?.sinopse}</Text>
             <Text style={styles.moreInfo}> 
-              'Mais informações"
+              'Mais informações'
             </Text>
             <View style={styles.buttonContainer}>
               <View style={styles.customButton}>
-                <Button title="Reservar Ingresso" flex-direction='row' color='#4DCEC1' margin='10' onPress={handleCompraPress} />
+                <Button title="Reservar Ingresso" color='#4DCEC1' onPress={handleCompraPress} />
               </View>
               <View style={styles.customButton}>
                 <TouchableOpacity
@@ -91,7 +97,7 @@ const CinemasSaoPaulo = () => {
 };
 
 const styles = StyleSheet.create({
-  buttonContainer:{
+  buttonContainer: {
     marginTop: 10,
   },
   customButton: {
@@ -127,11 +133,15 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     color:'#4DCEC1',
   },
-
+  verDetalhesButton: {
+    backgroundColor: '#4DCEC1',
+    padding: 10,
+    borderRadius: 20,
+    marginTop: 10,
+  },
   verDetalhes: {
-    marginBottom: 20,
-    color: '#4DCEC1',
-    textAlign: 'center', 
+    color: 'white',
+    textAlign: 'center',
   },
   centeredView: {
     flex: 1,
@@ -159,7 +169,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 18,
     fontWeight: 'bold',
-    color:'#4DCEC1',
+    color: '#4DCEC1',
   },
   modalImage: {
     width: 300,
@@ -169,7 +179,7 @@ const styles = StyleSheet.create({
   openButton: {
     backgroundColor: '#F194FF',
     borderRadius: 30,
-    padding: 10, 
+    padding: 10,
     marginBottom: 7,
   },
   textStyle: {
@@ -177,6 +187,11 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     textAlign: 'center',
   },
+  divider: {
+    height: 1,
+    width: '100%',
+    backgroundColor: '#CCCCCC',
+    marginVertical: 10,
+  },
 });
-
-export default CinemasSaoPaulo;
+export default CinemasBeloHorizonte;
