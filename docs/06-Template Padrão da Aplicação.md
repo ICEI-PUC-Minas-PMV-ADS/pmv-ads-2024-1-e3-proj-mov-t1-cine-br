@@ -32,7 +32,7 @@ Na tela de cidades, temos as opções das cidades disponíveis e também consegu
 
 Após escolher a cidade desejada, o usuário é direcionado para a tela de cinemas disponíveis de acordo com a cidade escolhida.
 
-![Imagem 11 Tela Home](img/imagem_2024-05-25_013329914.png)
+![Imagem 11 Tela Home](img/imagem_2024-05-25_013329914.pn)
 
 ---
 
@@ -40,7 +40,7 @@ Após escolher a cidade desejada, o usuário é direcionado para a tela de cinem
 
 Tela de filmes disponíveis de acordo com o cinema escolhido. Também é possível ver as informações do filme e reservar o ingresso ao selecionar "VER DETALHES".
 
-![Imagem 11 Tela Home](img/tela-de-filmes.png)
+![Imagem 11 Tela Home](img/tela-filme-atualizada.png)
 ![Imagem 11 Tela Home](img/tela-filme-selecionado.png)
 
 ---
@@ -60,6 +60,10 @@ Se o usuário não possuir uma conta, ele poderá criar a conta. (TELA CADASTRO)
 Tela onde o usuário ver e escolher os assentos que estão disponíveis.
 
 Também pode escolher o tipo de ingresso
+
+OBS:
+- Assentos Verdes estão disponíveis para seleção.
+- Assentos Vermelhos já estão ocupados.
 
 ![Imagem 11 Tela Home](img/tela-assentos.png)
 
