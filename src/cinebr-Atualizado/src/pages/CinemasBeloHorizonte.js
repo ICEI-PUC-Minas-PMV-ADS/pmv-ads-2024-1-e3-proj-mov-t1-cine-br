@@ -42,18 +42,21 @@ const CinemasBeloHorizonte = () => {
   return (
     <ScrollView contentContainerStyle={styles.container}>
       {filmes.map((filme, index) => (
-      <View key={index} style={styles.filmeContainer}>
-  <TouchableOpacity onPress={() => handleFilmePress(filme)}>
-    <View style={styles.cartazContainer}>
-      <Image source={{ uri: filme.imagem }} style={styles.imagem} />
-    </View>
-    <Text style={styles.titulo}>{filme.nome}</Text>
-    <Text>{filme.sinopse}</Text>
-    <TouchableOpacity onPress={() => handleFilmePress(filme)}>
-      <Text style={styles.verDetalhes}>Ver Detalhes</Text>
-    </TouchableOpacity>
-  </TouchableOpacity>
-</View>
+        <View key={index}>
+          <View style={styles.filmeContainer}>
+            <TouchableOpacity onPress={() => handleFilmePress(filme)}>
+              <View style={styles.cartazContainer}>
+                <Image source={{ uri: filme.imagem }} style={styles.imagem} />
+              </View>
+              <Text style={styles.titulo}>{filme.nome}</Text>
+              <Text>{filme.sinopse}</Text>
+              <TouchableOpacity style={styles.verDetalhesButton} onPress={() => handleFilmePress(filme)}>
+                <Text style={styles.verDetalhes}>Ver Detalhes</Text>
+              </TouchableOpacity>
+            </TouchableOpacity>
+          </View>
+          {index < filmes.length - 1 && <View style={styles.divider} />}
+        </View>
       ))}
 
       <Modal
@@ -68,11 +71,11 @@ const CinemasBeloHorizonte = () => {
             <Image source={{ uri: selectedFilme?.imagem }} style={styles.modalImage} />
             <Text>{selectedFilme?.sinopse}</Text>
             <Text style={styles.moreInfo}> 
-              'Mais informações"
+              'Mais informações'
             </Text>
             <View style={styles.buttonContainer}>
               <View style={styles.customButton}>
-                <Button title="Reservar Ingresso" flex-direction='row' color='#4DCEC1' margin='10' onPress={handleCompraPress} />
+                <Button title="Reservar Ingresso" color='#4DCEC1' onPress={handleCompraPress} />
               </View>
               <View style={styles.customButton}>
                 <TouchableOpacity
@@ -91,7 +94,7 @@ const CinemasBeloHorizonte = () => {
 };
 
 const styles = StyleSheet.create({
-  buttonContainer:{
+  buttonContainer: {
     marginTop: 10,
   },
   customButton: {
@@ -127,11 +130,15 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     color:'#4DCEC1',
   },
-
+  verDetalhesButton: {
+    backgroundColor: '#4DCEC1',
+    padding: 10,
+    borderRadius: 20,
+    marginTop: 10,
+  },
   verDetalhes: {
-    marginBottom: 20,
-    color: '#4DCEC1',
-    textAlign: 'center', 
+    color: 'white',
+    textAlign: 'center',
   },
   centeredView: {
     flex: 1,
@@ -159,7 +166,7 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 18,
     fontWeight: 'bold',
-    color:'#4DCEC1',
+    color: '#4DCEC1',
   },
   modalImage: {
     width: 300,
@@ -169,13 +176,19 @@ const styles = StyleSheet.create({
   openButton: {
     backgroundColor: '#F194FF',
     borderRadius: 30,
-    padding: 10, 
+    padding: 10,
     marginBottom: 7,
   },
   textStyle: {
     color: 'white',
     fontWeight: 'bold',
     textAlign: 'center',
+  },
+  divider: {
+    height: 1,
+    width: '100%',
+    backgroundColor: '#CCCCCC',
+    marginVertical: 10,
   },
 });
 export default CinemasBeloHorizonte;
