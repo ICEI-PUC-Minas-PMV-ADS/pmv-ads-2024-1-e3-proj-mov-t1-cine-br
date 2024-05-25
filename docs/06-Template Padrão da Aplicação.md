@@ -32,7 +32,17 @@ Na tela de cidades, temos as opções das cidades disponíveis e também consegu
 
 Após escolher a cidade desejada, o usuário é direcionado para a tela de cinemas disponíveis de acordo com a cidade escolhida.
 
-![Imagem 11 Tela Home](img/imagem_2024-05-25_013329914.pn)
+- Cinemas Belo Horizente.
+  
+![Imagem 11 Tela Home](img/tela-cinemas-2.png)
+
+- Cinemas Rio de Janeiro.
+  
+![Imagem 11 Tela Home](img/tela-cinemas-3.png)
+
+- Cinemas São Paulo.
+  
+![Imagem 11 Tela Home](img/tela-cinemas-4.png)
 
 ---
 
