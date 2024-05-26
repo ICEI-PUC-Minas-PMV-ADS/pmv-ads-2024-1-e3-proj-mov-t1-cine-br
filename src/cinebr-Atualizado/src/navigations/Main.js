@@ -13,6 +13,8 @@ import MensagemFim from '../pages/MensagemFim';
 import CineRio from '../pages/CineRio';
 import CineSp from '../pages/CineSp';
 import CineBh from '../pages/CineBh';
+import Confirmacao from '../pages/Confirmacao'; 
+
 
 
 const Stack = createStackNavigator();
@@ -31,6 +33,7 @@ const Main = () => {
       <Stack.Screen name="CineRio" component={CineRio} />
       <Stack.Screen name="CineSp" component={CineSp} />
       <Stack.Screen name="CineBh" component={CineBh} />
+      <Stack.Screen name="Confirmacao" component={Confirmacao} />
     </Stack.Navigator>
   );
 };
