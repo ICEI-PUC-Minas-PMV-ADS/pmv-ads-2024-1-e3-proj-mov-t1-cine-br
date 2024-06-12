@@ -1,32 +1,33 @@
 {
-  "main": "expo/AppEntry.js",
+  "main": "expo/AppEntry.js",  // Arquivo principal do aplicativo Expo
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "start": "expo start",  // Comando para iniciar o projeto localmente
+    "android": "expo start --android",  // Comando para iniciar no Android
+    "ios": "expo start --ios",  // Comando para iniciar no iOS
+    "web": "expo build:web",  // Comando para buildar o projeto para web
+    "build": "expo build"  // Opcional: comando geral para buildar para Android, iOS, etc.
   },
   "dependencies": {
-    "expo": "~51.0.8",
-    "expo-status-bar": "~1.12.1",
-    "react": "18.2.0",
-    "react-native": "0.74.1",
-    "@expo/vector-icons": "^14.0.0",
-    "react-native-paper": "4.9.2",
-    "react-native-screens": "3.31.1",
-    "@react-navigation/stack": "*",
-    "react-native-reanimated": "~3.10.1",
-    "@react-navigation/drawer": "*",
-    "@react-navigation/native": "*",
-    "react-native-modal-picker": "*",
-    "react-native-gesture-handler": "~2.16.1",
-    "@react-navigation/native-stack": "*",
-    "react-native-safe-area-context": "4.10.1",
-    "axios": "*",
-    "@react-native-async-storage/async-storage": "1.23.1"
+    "expo": "~51.0.8",  // Versão do Expo utilizada no projeto
+    "expo-status-bar": "~1.12.1",  // Componente de status bar do Expo
+    "react": "18.2.0",  // Versão do React
+    "react-native": "0.74.1",  // Versão do React Native
+    "@expo/vector-icons": "^14.0.0",  // Ícones vetoriais do Expo
+    "react-native-paper": "4.9.2",  // Biblioteca de UI para React Native
+    "react-native-screens": "3.31.1",  // Componentes de tela para React Native
+    "@react-navigation/stack": "*",  // Navegação em pilha para React Navigation
+    "react-native-reanimated": "~3.10.1",  // Animações para React Native
+    "@react-navigation/drawer": "*",  // Navegação em drawer para React Navigation
+    "@react-navigation/native": "*",  // Navegação básica para React Navigation
+    "react-native-modal-picker": "*",  // Componente de seleção modal para React Native
+    "react-native-gesture-handler": "~2.16.1",  // Manipulação de gestos para React Native
+    "@react-navigation/native-stack": "*",  // Navegação em stack para React Navigation
+    "react-native-safe-area-context": "4.10.1",  // Contexto de área segura para React Native
+    "axios": "*",  // Cliente HTTP para fazer requisições
+    "@react-native-async-storage/async-storage": "1.23.1"  // Armazenamento assíncrono para React Native
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0"  // Versão do Babel utilizada para transpilação
   },
-  "private": true
+  "private": true  // Define o projeto como privado
 }
