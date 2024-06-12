@@ -1,4 +1,4 @@
-const BASE_URL = 'https://json-server-project-aqiv.onrender.com';
+const BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:3000'; // fallback para desenvolvimento local
 
 export const createUser = async (nome, email, senha) => {
   const endpoint = `${BASE_URL}/users`;
