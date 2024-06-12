@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "cinebr-mayra",
-    "slug": "snack-1b6bb98a-d28a-4d1b-9483-e0bd27ce5f03",
+    "slug": "cinebr-mayra",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "scripts": {
+      "build:expo-web": "expo build:web && mkdir -p web-build && mv web-* web-build"
     }
   }
 }
