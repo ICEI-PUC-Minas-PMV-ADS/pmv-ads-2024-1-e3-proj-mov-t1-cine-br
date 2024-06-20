@@ -1,0 +1,31 @@
+message: Please cite this software using these metadata.
+title:
+authors:
+  - family-names: Oliveira
+    given-names: Arthur
+  - family-names:  Santana
+    given-names: Bianca Cristina Sousa
+  - family-names: Ribeiro
+    given-names: Geovanne do Monte
+  - family-names: Emanuel Pereira Rodrigues
+    given-names: Lucas
+  - family-names: Gabriella vitoriana machado Rodriguez
+    given-names: Mayra
+  - family-names: Cavallieri Silva
+    given-names: Otavio
+  - family-names:Alves Gervazio
+    given-names: Peterson 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: 
+    given-names: 
+  - name-suffix: Will Ricardo dos Santos Machado
+    affiliation: PUC Minas
+    family-names: 
+    given-names: 
+keywords:
+  https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e3-proj-mov-t1-cine-br
+repository-code: 
+version: 1.0.0
+date-released: 2024-01-01
+
